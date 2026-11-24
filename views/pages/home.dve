@@ -2,24 +2,34 @@
 {{#block title}}{{ site.name }} — Berita Lengkap Politik, Ekonomi &amp; Bursa{{/block}}
 {{#block body}}
 
-{{#if featured}}
 <section class="hero container">
+  <span class="badge-live"><span class="badge-dot" aria-hidden="true"></span> Terbit setiap hari di Instagram &amp; Facebook</span>
+  <h1 class="statement">Berita lengkap, <span class="accent">terverifikasi</span>, tanpa potongan.</h1>
+  <p class="statement-sub">{{ site.description }}</p>
+  <div class="desk-row">
+    {{#each site.desks as d~}}
+    <span class="desk-chip">{{ d }}</span>
+    {{~/each}}
+  </div>
+
+  {{#if featured}}
   <a class="hero-card" href="/artikel/{{ featured.slug }}/">
     <div class="hero-media">
       <img src="{{ featured.cover.src }}" alt="{{ featured.cover.alt }}" loading="eager">
     </div>
     <div class="hero-body">
       <span class="chip">{{ featured.desk }}</span>
-      <h1 class="hero-headline">{{ featured.headline }}</h1>
+      <h2 class="hero-headline">{{ featured.headline }}</h2>
       <p class="hero-lead">{{ featured.meta_description }}</p>
       <p class="meta-line">{{ featured.date_label }} · Gapura Media</p>
     </div>
   </a>
+  {{/if}}
 </section>
-{{/if}}
 
 <section class="container section-block">
   <div class="section-head">
+    <p class="section-kicker">Baru diterbitkan</p>
     <h2>Berita Terbaru</h2>
     <span class="section-rule" aria-hidden="true"></span>
   </div>

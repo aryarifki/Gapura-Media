@@ -16,8 +16,9 @@
   --teal-soft: rgba(45, 212, 191, 0.12);
   --radius: 24px;
   --radius-sm: 16px;
-  --font: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --mono: "Fira Code", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --display: "Archivo Black", "Inter", sans-serif;
+  --mono: "Inter", system-ui, sans-serif;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -109,6 +110,15 @@ img { max-width: 100%; display: block; }
   margin: 20px 0 0; max-width: 42em;
   color: var(--muted); font-size: 19px; line-height: 1.6;
 }
+/* Tipografi display mengikuti Ruang Produksi Gapura: Archivo Black untuk
+   judul/display, Inter untuk isi dan label. */
+.statement, .hero-headline, .section-head h2, .about-strip h2,
+.article-headline, .article-section h2, .card-title, .bn-top, .brand-text {
+  font-family: var(--display);
+  font-weight: 400;
+  letter-spacing: 0.005em;
+}
+.card-title { font-size: 19px; line-height: 1.35; }
 .desk-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
 .desk-chip {
   font-family: var(--mono); font-size: 12px; letter-spacing: 0.05em;

@@ -2,59 +2,88 @@
 {{#block title}}{{ site.name }} — Berita Lengkap Politik, Ekonomi &amp; Bursa{{/block}}
 {{#block body}}
 
-<section class="hero container">
-  <h1 class="statement">Berita lengkap, <span class="accent">terverifikasi</span>, tanpa potongan.</h1>
-  <p class="statement-sub">{{ site.description }}</p>
-  <div class="desk-row">
-    {{#each site.desks as d~}}
-    <span class="desk-chip">{{ d }}</span>
-    {{~/each}}
+{{#if featured}}
+<section class="container top-story">
+  <div class="top-story-text">
+    <p class="kicker">{{ featured.kicker }}</p>
+    <h1 class="top-headline"><a href="/artikel/{{ featured.slug }}/">{{ featured.headline }}</a></h1>
+    <p class="top-lead">{{ featured.meta_description }}</p>
+    <p class="meta-line">{{ featured.date_label }} · Gapura Media</p>
   </div>
-
-  {{#if featured}}
-  <a class="hero-card" href="/artikel/{{ featured.slug }}/">
-    <div class="hero-media">
-      <img src="{{ featured.cover.src }}" alt="{{ featured.cover.alt }}" loading="eager">
-    </div>
-    <div class="hero-body">
-      <span class="chip">{{ featured.desk }}</span>
-      <h2 class="hero-headline">{{ featured.headline }}</h2>
-      <p class="hero-lead">{{ featured.meta_description }}</p>
-      <p class="meta-line">{{ featured.date_label }} · Gapura Media</p>
-    </div>
+  <a class="top-story-media" href="/artikel/{{ featured.slug }}/" aria-label="{{ featured.headline }}">
+    <img src="{{ featured.cover.src }}" alt="{{ featured.cover.alt }}" loading="eager">
   </a>
-  {{/if}}
 </section>
+{{/if}}
 
-<section class="container section-block">
-  <div class="section-head">
-    <p class="section-kicker">Baru diterbitkan</p>
-    <h2>Berita Terbaru</h2>
-    <span class="section-rule" aria-hidden="true"></span>
-  </div>
-  <div class="grid">
-    {{#each rest as a~}}
-    <article class="card">
-      <a class="card-media" href="/artikel/{{ a.slug }}/">
+<div class="container front-grid">
+  <section class="front-main" aria-label="Berita terbaru">
+    <div class="section-head"><h2>Berita Terbaru</h2></div>
+    <div class="story-list">
+      {{#each rest as a~}}
+      <article class="story-row">
+        <a class="story-row-media" href="/artikel/{{ a.slug }}/">
+          <img src="{{ a.cover.src }}" alt="{{ a.cover.alt }}" loading="lazy">
+        </a>
+        <div class="story-row-body">
+          <p class="kicker">{{ a.kicker }}</p>
+          <h3 class="story-row-title"><a href="/artikel/{{ a.slug }}/">{{ a.headline }}</a></h3>
+          <p class="story-row-desc">{{ a.meta_description }}</p>
+          <p class="meta-line">{{ a.date_label }}</p>
+        </div>
+      </article>
+      {{~/each}}
+    </div>
+  </section>
+
+  <aside class="front-rail" aria-label="Paling banyak dibaca">
+    <div class="section-head"><h2>Paling Banyak Dibaca</h2></div>
+    <ol class="most-read">
+      {{#each articles as a~}}
+      {{#if @index < 5}}
+      <li class="most-read-item">
+        <span class="mr-num" aria-hidden="true">{{ @index + 1 }}</span>
+        <div class="mr-body">
+          <h3 class="mr-title"><a href="/artikel/{{ a.slug }}/">{{ a.headline }}</a></h3>
+          <p class="meta-line">{{ a.desk }} · {{ a.date_label }}</p>
+        </div>
+      </li>
+      {{/if}}
+      {{~/each}}
+    </ol>
+  </aside>
+</div>
+
+{{#each site.desks as d~}}
+<section class="container desk-block" id="desk-{{ d }}">
+  <div class="section-head"><h2>{{ d }}</h2></div>
+  <div class="desk-list">
+    {{#each articles as a~}}
+    {{#if a.desk == d}}
+    <article class="story-row">
+      <a class="story-row-media" href="/artikel/{{ a.slug }}/">
         <img src="{{ a.cover.src }}" alt="{{ a.cover.alt }}" loading="lazy">
       </a>
-      <div class="card-body">
-        <span class="chip">{{ a.desk }}</span>
-        <h3 class="card-title"><a href="/artikel/{{ a.slug }}/">{{ a.headline }}</a></h3>
-        <p class="card-desc">{{ a.meta_description }}</p>
+      <div class="story-row-body">
+        <p class="kicker">{{ a.kicker }}</p>
+        <h3 class="story-row-title"><a href="/artikel/{{ a.slug }}/">{{ a.headline }}</a></h3>
         <p class="meta-line">{{ a.date_label }}</p>
       </div>
     </article>
+    {{/if}}
     {{~/each}}
   </div>
 </section>
+{{~/each}}
 
-<section class="container about-strip">
-  <h2>Versi lengkap dari setiap berita</h2>
-  <p>Setiap carousel yang terbit di Instagram dan Facebook <strong>@gapuramedia</strong> memiliki versi artikel utuh di sini — konteks penuh, data pendukung, dan sumber yang bisa kamu periksa sendiri.</p>
-  <div class="about-actions">
-    <a class="btn-dark" href="{{ socials.instagram }}" target="_blank" rel="noopener">Ikuti di Instagram</a>
-    <a class="btn-ghost" href="{{ socials.facebook }}" target="_blank" rel="noopener">Ikuti di Facebook</a>
+<section class="container follow-band">
+  <div class="follow-text">
+    <h2>Versi lengkap dari setiap berita</h2>
+    <p>Setiap carousel yang terbit di Instagram dan Facebook <strong>@gapuramedia</strong> memiliki versi artikel utuh di sini — konteks penuh, data pendukung, dan sumber yang bisa kamu periksa sendiri.</p>
+  </div>
+  <div class="follow-actions">
+    <a class="btn-solid" href="{{ socials.instagram }}" target="_blank" rel="noopener">Ikuti di Instagram</a>
+    <a class="btn-outline" href="{{ socials.facebook }}" target="_blank" rel="noopener">Ikuti di Facebook</a>
   </div>
 </section>
 

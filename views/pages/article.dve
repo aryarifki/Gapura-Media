@@ -2,18 +2,25 @@
 {{#block title}}{{ article.seo_title }} — {{ site.name }}{{/block}}
 {{#block body}}
 
-<article class="container article">
-  <p class="crumb"><a href="/">Beranda</a> · <span>{{ article.desk }}</span></p>
-  <span class="chip">{{ article.desk }}</span>
+<article class="container article-col">
+  <p class="kicker">{{ article.kicker }}</p>
   <h1 class="article-headline">{{ article.headline }}</h1>
-  <p class="meta-line">{{ article.date_label }} · Gapura Media · Sumber: {{ article.sources.length }} penerbit</p>
+  <p class="article-lead">{{ article.lead }}</p>
+  <p class="meta-line article-meta">{{ article.date_label }} · Gapura Media · Sumber: {{ article.sources.length }} penerbit</p>
 
   <figure class="article-cover">
     <img src="{{ article.cover.src }}" alt="{{ article.cover.alt }}">
     {{#if article.cover.credit}}<figcaption>Gambar: {{ article.cover.credit }}</figcaption>{{/if}}
   </figure>
 
-  <p class="article-lead">{{ article.lead }}</p>
+  {{#each article.sections as s~}}
+  <section class="article-section">
+    {{#if s.heading}}<h2>{{ s.heading }}</h2>{{/if}}
+    {{#each s.paragraphs as p~}}
+    <p>{{ p }}</p>
+    {{~/each}}
+  </section>
+  {{~/each}}
 
   {{#if article.takeaways.length}}
   <aside class="takeaways">
@@ -25,15 +32,6 @@
     </ul>
   </aside>
   {{/if}}
-
-  {{#each article.sections as s~}}
-  <section class="article-section">
-    {{#if s.heading}}<h2>{{ s.heading }}</h2>{{/if}}
-    {{#each s.paragraphs as p~}}
-    <p>{{ p }}</p>
-    {{~/each}}
-  </section>
-  {{~/each}}
 
   {{#if article.sources.length}}
   <aside class="sources">
@@ -48,32 +46,43 @@
 
   <aside class="social-box">
     <h2>Berita ini juga terbit di</h2>
-    <div class="about-actions">
-      {{#if article.social.instagram}}<a class="btn-dark" href="{{ article.social.instagram }}" target="_blank" rel="noopener">Instagram @gapuramedia</a>{{/if}}
-      {{#if article.social.facebook}}<a class="btn-ghost" href="{{ article.social.facebook }}" target="_blank" rel="noopener">Facebook Gapura Media</a>{{/if}}
+    <div class="follow-actions">
+      {{#if article.social.instagram}}<a class="btn-solid" href="{{ article.social.instagram }}" target="_blank" rel="noopener">Instagram @gapuramedia</a>{{/if}}
+      {{#if article.social.facebook}}<a class="btn-outline" href="{{ article.social.facebook }}" target="_blank" rel="noopener">Facebook Gapura Media</a>{{/if}}
     </div>
   </aside>
 </article>
 
 {{#if others.length}}
-<section class="container section-block">
-  <div class="section-head">
-    <h2>Artikel Lainnya</h2>
-    <span class="section-rule" aria-hidden="true"></span>
-  </div>
-  <div class="grid">
-    {{#each others as a~}}
-    <article class="card">
-      <a class="card-media" href="/artikel/{{ a.slug }}/">
-        <img src="{{ a.cover.src }}" alt="{{ a.cover.alt }}" loading="lazy">
-      </a>
-      <div class="card-body">
-        <span class="chip">{{ a.desk }}</span>
-        <h3 class="card-title"><a href="/artikel/{{ a.slug }}/">{{ a.headline }}</a></h3>
+<section class="container article-more">
+  <div class="more-related">
+    <div class="section-head"><h2>Artikel Terkait</h2></div>
+    <div class="related-grid">
+      {{#each others as a~}}
+      <article class="rel-card">
+        <a class="rel-media" href="/artikel/{{ a.slug }}/">
+          <img src="{{ a.cover.src }}" alt="{{ a.cover.alt }}" loading="lazy">
+        </a>
+        <p class="kicker">{{ a.kicker }}</p>
+        <h3 class="rel-title"><a href="/artikel/{{ a.slug }}/">{{ a.headline }}</a></h3>
         <p class="meta-line">{{ a.date_label }}</p>
-      </div>
-    </article>
-    {{~/each}}
+      </article>
+      {{~/each}}
+    </div>
+  </div>
+  <div class="more-mostread">
+    <div class="section-head"><h2>Paling Banyak Dibaca</h2></div>
+    <ol class="most-read">
+      {{#each others as a~}}
+      <li class="most-read-item">
+        <span class="mr-num" aria-hidden="true">{{ @index + 1 }}</span>
+        <div class="mr-body">
+          <h3 class="mr-title"><a href="/artikel/{{ a.slug }}/">{{ a.headline }}</a></h3>
+          <p class="meta-line">{{ a.desk }} · {{ a.date_label }}</p>
+        </div>
+      </li>
+      {{~/each}}
+    </ol>
   </div>
 </section>
 {{/if}}

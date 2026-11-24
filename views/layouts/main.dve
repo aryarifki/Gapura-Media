@@ -6,7 +6,7 @@
   <title>{{#slot title}}{{ site.name }} — {{ site.tagline }}{{/slot}}</title>
   <meta name="description" content="{{ pageDescription }}">
   <meta name="theme-color" content="{{ site.themeColor }}">
-  <meta name="color-scheme" content="dark">
+  <meta name="color-scheme" content="light">
   <link rel="canonical" href="{{ canonical }}">
   <meta property="og:type" content="{{ ogType }}">
   <meta property="og:site_name" content="{{ site.name }}">
@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/style.css?v=6">
+  <link rel="stylesheet" href="/assets/style.css?v=7">
 </head>
 <body>
   {{> partials/header.dve}}

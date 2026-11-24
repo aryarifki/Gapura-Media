@@ -1,0 +1,82 @@
+{
+  "slug": "andi-widjajanto-heran-candiru-muncul-sebagai-barang-bukti",
+  "draft_id": 39,
+  "headline": "Andi Widjajanto heran Candiru muncul sebagai barang bukti",
+  "seo_title": "Andi Widjajanto heran Candiru muncul sebagai barang bukti",
+  "meta_description": "Andi Widjajanto heran perangkat Candiru buatan Israel muncul dalam kasus dugaan penyadapan Presiden Prabowo, sementara catatan Amnesty menunjukkan jalur pengadaan yang berbeda.",
+  "desk": "Nasional",
+  "kicker": "Politik · Intelijen",
+  "published_at": "2026-11-24T17:48:47.900Z",
+  "date_label": "Rabu, 25 November 2026",
+  "cover": {
+    "src": "https://gapura.avenia.my.id/storage/drafts/39/slide_1.png",
+    "credit": "Ilustrasi AI untuk Gapura Media",
+    "alt": "Andi Widjajanto heran Candiru muncul sebagai barang bukti"
+  },
+  "lead": "Mantan Gubernur Lembaga Ketahanan Nasional (Lemhannas) Andi Widjajanto menyatakan keterkejutannya melihat perangkat yang ia kenali sebagai Candiru, perangkat penyadapan buatan Israel, dihadirkan dalam konferensi pers kasus dugaan penyadapan ilegal terhadap Presiden Prabowo Subianto yang melibatkan mantan Kapolri Jenderal Listyo Sigit Prabowo. Ia menilai janggal perpindahan alat intelijen itu ke pihak kepolisian, karena menurutnya perangkat tersebut pernah dibeli pada era Menteri Pertahanan Ryamizard Ryacudu dan hanya bisa diperoleh melalui Kementerian Pertahanan.",
+  "takeaways": [
+    "Andi mengaku kaget mengenali Candiru saat menonton konferensi pers Bareskrim tentang dugaan penyadapan Presiden Prabowo.",
+    "Menurut Andi, Candiru dibeli pada era Menhan Ryamizard dan hanya masuk lewat kesepakatan antarpemerintah melalui Kemhan.",
+    "Catatan Amnesty menunjukkan kiriman terkait Candiru pada 2020-2021 langsung ke Polri lewat broker Singapura.",
+    "Belum ada bukti resmi Candiru dipakai dalam penyadapan 2025-2026; modus yang dijelaskan Bareskrim adalah LIMS."
+  ],
+  "sections": [
+    {
+      "heading": "Kaget di depan layar konferensi pers",
+      "paragraphs": [
+        "Pemicunya adalah konferensi pers Badan Reserse Kriminal (Bareskrim) Polri tentang dugaan penyadapan ilegal terhadap Presiden Prabowo Subianto. Kasus itu melibatkan mantan Kepala Kepolisian Negara Republik Indonesia (Kapolri) Jenderal Listyo Sigit Prabowo. Saat menonton paparan tersebut, Andi mengaku mengenali satu perangkat yang ditampilkan penyidik.",
+        "“Oh, saya bilang, eh ini Candiru,” katanya, seperti diceritakan kembali dalam ulasan Tulis.ink tentang penampilannya di KompasTV pada Jumat malam, 7 November 2026.",
+        "Dalam program Bola Liar di KompasTV pada hari yang sama, Andi menjelaskan alasannya heran. Menurutnya, Candiru adalah perangkat penyadapan buatan Israel yang pernah dibeli pada masa Ryamizard Ryacudu menjabat Menteri Pertahanan (Menhan).",
+        "Ia menambahkan, perangkat sekelas itu hanya akan diberikan apabila ada kesepakatan pemerintah dengan pemerintah, dan jalur itu harus melalui Kemhan. Karena itu, perpindahannya ke lingkungan kepolisian — yang ia sebut baju coklat — ia nilai janggal."
+      ]
+    },
+    {
+      "heading": "Catatan riset menunjukkan jalur yang berbeda",
+      "paragraphs": [
+        "Keterangan Andi itu penting karena datang dari mantan Sekretaris Kabinet dan mantan Gubernur Lemhannas. Namun catatan publik yang tersedia menunjukkan gambaran yang tidak sepenuhnya sama, dan perbedaan ini perlu dibuka agar pembaca tidak menerima satu versi sebagai kepastian.",
+        "Ulasan investigasi Tulis.ink, yang merujuk laporan Amnesty International Security Lab bertajuk A Web of Surveillance pada 1 Mei 2024, mencatat tiga kiriman dari perusahaan Singapura Heha Pte Ltd kepada Kepolisian Negara Republik Indonesia yang dikaitkan dengan Candiru. Kiriman pertama pada 20 Mei 2020 berupa perangkat keras senilai sekitar US$79 ribu, disusul set serupa pada 3 Juli 2020 senilai sekitar US$76 ribu.",
+        "Kiriman terbesar tercatat pada 27 Januari 2021 berupa lisensi perangkat lunak, terdiri dari sistem utama dan dua lisensi pendamping, dengan total keseluruhan kiriman sekitar US$33 juta. Angka ini berbeda dari gambaran nilai triliunan rupiah yang disebut dalam prompt pemilik redaksi; riset yang dapat diverifikasi menunjukkan nilai puluhan juta dolar Amerika Serikat, dengan hampir seluruh nilai berada pada lisensi.",
+        "Soal waktu juga berbeda. Ryamizard mengakhiri jabatan Menhan pada 23 Oktober 2019, ketika Prabowo dilantik menggantikannya. Ketiga kiriman di atas tercatat setelah tanggal itu, pada masa Menhan Prabowo. Catatan dagang tersebut juga tidak menyebut Kemhan, tidak menyebut siapa yang memesan, dan menunjukkan penerima sejak kiriman pertama adalah Polri — bukan perpindahan dari Kemhan ke Polri."
+      ]
+    },
+    {
+      "heading": "Apa itu Candiru dan mengapa namanya sensitif",
+      "paragraphs": [
+        "Candiru adalah nama perusahaan asal Tel Aviv, Israel, yang didirikan pada 2014 dan menjual perangkat lunak pengawasan kepada pemerintah. POTRET Online dan Maklumat mencatat spyware buatannya dilaporkan mampu menginfeksi dan memantau perangkat iPhone, Android, MacBook, komputer berbasis Windows, hingga akun cloud.",
+        "Dalam laporan tahun 2021, Citizen Lab menemukan lebih dari 750 domain yang memiliki infrastruktur terkait Candiru. Citizen Lab juga menemukan indikasi penargetan terhadap Indonesia melalui domain indoprogress[.]co, yang menyerupai situs resmi indoprogress[.]com, meski keberadaan domain itu tidak otomatis membuktikan Indonesia sebagai operator spyware tersebut.",
+        "Microsoft Threat Intelligence Center dan Citizen Lab menemukan dua kerentanan Windows yang dieksploitasi spyware tersebut, yaitu CVE-2021-31979 dan CVE-2021-33771, yang kemudian ditambal Microsoft pada 13 Juli 2021. Korban yang teridentifikasi dalam berbagai laporan mencakup pembela hak asasi manusia, jurnalis, aktivis, dan politisi — pola yang membuat setiap dugaan pemakaian alat ini selalu menyentuh soal privasi dan batas kekuasaan negara."
+      ]
+    },
+    {
+      "heading": "Belum ada bukti resmi Candiru dipakai dalam perkara ini",
+      "paragraphs": [
+        "Satu kehati-hatian lagi perlu dicatat. Sampai ulasan Tulis.ink dibuat, belum ada bukti bahwa Candiru dipakai dalam penyadapan 2025-2026 yang sedang diusut. Bareskrim menjelaskan modus penyadapan sebagai memasukkan nomor target ke server Lawful Interception Management System (LIMS) tanpa verifikasi — cara yang bekerja di jaringan operator, berbeda dari cara Candiru yang bekerja dengan menyusup ke perangkat target.",
+        "Barang bukti yang diumumkan Polri dalam perkara ini juga dicatat berupa 11 ponsel, 1 iPad, dan 4 flashdisk, sementara sistem yang dikaitkan dengan Candiru dalam daftar kiriman berupa satu rak server lengkap. Karena itu, benda apa persisnya yang dilihat Andi di layar konferensi pers belum dapat dipastikan dari catatan publik.",
+        "Yang jelas terbuka adalah pertanyaannya. Jika perangkat itu benar Candiru, siapa yang membelinya, melalui jalur apa, berapa biayanya, dan atas kewenangan apa ia dioperasikan? POTRET Online menekankan pertanyaan-pertanyaan itu sebagai syarat minimum negara hukum, sementara Maklumat menekankan perlunya aturan jelas, izin independen, batas waktu, dan audit yang dapat dipertanggungjawabkan.",
+        "Pernyataan Andi telah membuka pintu pertanyaan itu ke ruang publik. Jawabannya kini bergantung pada kesediaan institusi terkait membuka asal-usul pengadaan dan rantai penguasaan perangkat tersebut — tanpa membuka rahasia operasi yang sah, tetapi juga tanpa menjadikan kerahasiaan sebagai selimut bagi dugaan penyalahgunaan."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "KompasTV",
+      "url": "https://www.youtube.com/watch?v=eoXLs31yN7E"
+    },
+    {
+      "name": "Tulis.ink",
+      "url": "https://tulis.ink/jejak-candiru/"
+    },
+    {
+      "name": "POTRET Online",
+      "url": "https://potretonline.com/2026/11/09/candiru-dan-wajah-gelap-teknologi-pengawasan-di-indonesia/"
+    },
+    {
+      "name": "Maklumat",
+      "url": "https://maklumat.id/candiru-ancaman-pengawasan-digital-indonesia/"
+    }
+  ],
+  "social": {
+    "instagram": "https://www.instagram.com/p/DgIhzZmCaQU/",
+    "facebook": "https://www.facebook.com/1158104303822858/posts/1159433053689983"
+  }
+}

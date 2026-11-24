@@ -2,7 +2,7 @@
   <div class="container footer-inner">
     <div>
       <span class="brand">
-        <img class="brand-logo brand-logo-footer" src="/assets/logo-mark.svg" alt="" width="38" height="38">
+        <img class="brand-logo brand-logo-footer" src="/assets/logo-mark.svg?v=2" alt="" width="38" height="38">
         <span class="brand-name">Gapura <span class="brand-media">Media</span></span>
       </span>
       <p class="footer-desc">{{ site.description }}</p>

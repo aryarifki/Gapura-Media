@@ -3,7 +3,6 @@
 {{#block body}}
 
 <section class="hero container">
-  <span class="badge-live"><span class="badge-dot" aria-hidden="true"></span> Terbit setiap hari di Instagram &amp; Facebook</span>
   <h1 class="statement">Berita lengkap, <span class="accent">terverifikasi</span>, tanpa potongan.</h1>
   <p class="statement-sub">{{ site.description }}</p>
   <div class="desk-row">

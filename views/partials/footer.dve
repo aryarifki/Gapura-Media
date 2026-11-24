@@ -1,8 +1,7 @@
 <footer class="site-footer">
   <div class="container footer-inner">
     <div>
-      <span class="brand-bar" aria-hidden="true"></span>
-      <span class="brand-text light">GAPURA <span class="brand-media">MEDIA</span></span>
+      <img class="brand-logo brand-logo-footer" src="/assets/logo-mark.svg" alt="Gapura Media" width="38" height="38">
       <p class="footer-desc">{{ site.description }}</p>
     </div>
     <div class="footer-links">

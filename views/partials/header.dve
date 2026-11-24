@@ -1,8 +1,7 @@
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="/" aria-label="Gapura Media — Beranda">
-      <span class="brand-bar" aria-hidden="true"></span>
-      <span class="brand-text">GAPURA <span class="brand-media">MEDIA</span></span>
+      <img class="brand-logo" src="/assets/logo-mark.svg" alt="Gapura Media" width="40" height="40">
     </a>
     <nav class="main-nav" aria-label="Navigasi utama">
       <a href="/">Terbaru</a>

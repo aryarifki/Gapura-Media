@@ -1,1 +1,18 @@
-IyBHYXB1cmEgTWVkaWEg4oCUIFNpdHVzIEFydGlrZWwKClNpdHVzIHJlc21pICoqR2FwdXJhIE1lZGlhKiogZGkgW2dhcHVyYW1lZGlhLm15LmlkXShodHRwczovL2dhcHVyYW1lZGlhLm15LmlkKTogdmVyc2kgbGVuZ2thcCBkYW4gcGFuamFuZyBkYXJpIHNldGlhcCBiZXJpdGEgeWFuZyB0ZXJiaXQgc2ViYWdhaSBjYXJvdXNlbCBkaSBJbnN0YWdyYW0gZGFuIEZhY2Vib29rIFtAZ2FwdXJhbWVkaWFdKGh0dHBzOi8vd3d3Lmluc3RhZ3JhbS5jb20vZ2FwdXJhbWVkaWEpLgoKIyMgU3RhY2sKClNhbWEgc2VwZXJ0aSBsYW5kaW5nIGF2ZW5pYS5teS5pZDogc2l0dXMgc3RhdGlzIFtEVkVdKGh0dHBzOi8vd3d3Lm5wbWpzLmNvbS9wYWNrYWdlL0BuZWFieXRlL2R2ZSkgKERlc2VydmUgVmlldyBFbmdpbmUpICsgTm9kZSwgZGktYnVpbGQgb2xlaCBHaXRIdWIgQWN0aW9ucyBkYW4gZGktZGVwbG95IGtlIEdpdEh1YiBQYWdlcyBzZXRpYXAgcHVzaCBrZSBgbWFpbmAuCgotIGB2aWV3cy9gIOKAlCB0ZW1wbGF0ZSBEVkUgKGxheW91dCwgcGFydGlhbCwgaGFsYW1hbiBiZXJhbmRhICsgYXJ0aWtlbCkKLSBgZGF0YS9zaXRlLmpzb25gIOKAlCBpZGVudGl0YXMgc2l0dXMKLSBgZGF0YS9hcnRpY2xlcy88c2x1Zz4uanNvbmAg4oCUIHNhdHUgYmVya2FzIHBlciBhcnRpa2VsIChzdW1iZXIga2ViZW5hcmFuOyBiZXJhbmRhLCBzaXRlbWFwLCBkYW4gUlNTIGRpZ2VuZXJhdGUgZGFyaSBzaW5pKQotIGBwdWJsaWMvYCDigJQgYXNldCBzdGF0aXMgKENTUywgZmF2aWNvbiwgY292ZXIpICsgYENOQU1FYAotIGBzY3JpcHRzL2J1aWxkLm1qc2Ag4oCUIHJlbmRlciBgZGlzdC9gCi0gYHNjcmlwdHMvYWRkLWFydGljbGUubWpzYCDigJQgdWJhaCBkcmFmIEdhcHVyYSB5YW5nIHN1ZGFoIHRlcmJpdCAoZGFyaSBBUEkgZGFzaGJvYXJkKSBtZW5qYWRpIGJlcmthcyBhcnRpa2VsOiBgbm9kZSBzY3JpcHRzL2FkZC1hcnRpY2xlLm1qcyAtLWRyYWZ0IDxpZD5gCgojIyBNZW5hbWJhaCBhcnRpa2VsCgpTZXRpYXAga29udGVuIEdhcHVyYSB5YW5nIHRlcmJpdCBvdG9tYXRpcyBkaXRhbWJhaGthbiBvbGVoIG90b21hdGlzYXNpIE11c2UgKG1lbmdhbWJpbCBkcmFmIHRlcmJpdCBkYXJpIEFQSSwgbWVuamFsYW5rYW4gYGFkZC1hcnRpY2xlLm1qc2AsIGxhbHUgcHVzaCBiZXJrYXMgSlNPTiBhcnRpa2VsbnlhIGtlIHJlcG8gaW5pKS4gTWFudWFsOiBqYWxhbmthbiBwZXJpbnRhaCBkaSBhdGFzIGxhbHUgY29tbWl0ICsgcHVzaCBgZGF0YS9hcnRpY2xlcy88c2x1Zz4uanNvbmAuCg==
+# Gapura Media — Situs Artikel
+
+Situs resmi **Gapura Media** di [gapuramedia.my.id](https://gapuramedia.my.id): versi lengkap dan panjang dari setiap berita yang terbit sebagai carousel di Instagram dan Facebook [@gapuramedia](https://www.instagram.com/gapuramedia).
+
+## Stack
+
+Sama seperti landing avenia.my.id: situs statis [DVE](https://www.npmjs.com/package/@neabyte/dve) (Deserve View Engine) + Node, di-build oleh GitHub Actions dan di-deploy ke GitHub Pages setiap push ke `main`.
+
+- `views/` — template DVE (layout, partial, halaman beranda + artikel)
+- `data/site.json` — identitas situs
+- `data/articles/<slug>.json` — satu berkas per artikel (sumber kebenaran; beranda, sitemap, dan RSS digenerate dari sini)
+- `public/` — aset statis (CSS, favicon, cover) + `CNAME`
+- `scripts/build.mjs` — render `dist/`
+- `scripts/add-article.mjs` — ubah draf Gapura yang sudah terbit (dari API dashboard) menjadi berkas artikel: `node scripts/add-article.mjs --draft <id>`
+
+## Menambah artikel
+
+Setiap konten Gapura yang terbit otomatis ditambahkan oleh otomatisasi Muse (mengambil draf terbit dari API, menjalankan `add-article.mjs`, lalu push berkas JSON artikelnya ke repo ini). Manual: jalankan perintah di atas lalu commit + push `data/articles/<slug>.json`.

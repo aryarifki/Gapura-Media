@@ -1,1 +1,62 @@
-ewogICJzbHVnIjogImloc2ctcmVib3VuZC1kaS10ZW5nYWgta2FiYXItZGlhbG9nLXByYWJvd28tbXNjaSIsCiAgImRyYWZ0X2lkIjogMzA0LAogICJoZWFkbGluZSI6ICJJSFNHIFJlYm91bmQgMSwzNSBQZXJzZW4ga2UgNS4yMTUsODUgZGkgVGVuZ2FoIEthYmFyIERpYWxvZyBQcmFib3dvIGRhbiBNU0NJIiwKICAic2VvX3RpdGxlIjogIklIU0cgRGl0dXR1cCBNZW5ndWF0IDEsMzUgUGVyc2VuIGtlIExldmVsIDUuMjE1LDg1IiwKICAibWV0YV9kZXNjcmlwdGlvbiI6ICJJSFNHIG1lbnV0dXAgcGVyZGFnYW5nYW4gU2VuaW4sIDIzIE5vdmVtYmVyIDIwMjYsIGRlbmdhbiBwZW5ndWF0YW4gNjksNTIgcG9pbiBhdGF1IDEsMzUgcGVyc2VuIGtlIGxldmVsIDUuMjE1LDg1LCBkaXRvcGFuZyBzZWt0b3IgYmFoYW4gYmFrdSBkYW4ga2FiYXIgZGlhbG9nIFByYWJvd28gZGVuZ2FuIE1TQ0kuIiwKICAiZGVzayI6ICJCdXJzYSIsCiAgImtpY2tlciI6ICJCdXJzYSBFZmVrIEluZG9uZXNpYSIsCiAgInB1Ymxpc2hlZF9hdCI6ICIyMDI2LTExLTIzVDE2OjUxOjA5LjcyM1oiLAogICJkYXRlX2xhYmVsIjogIlNlbmluLCAyMyBOb3ZlbWJlciAyMDI2IiwKICAiY292ZXIiOiB7CiAgICAic3JjIjogImh0dHBzOi8vY29tbW9ucy53aWtpbWVkaWEub3JnL3dpa2kvU3BlY2lhbDpGaWxlUGF0aC9TQ0JELCUyMEpha2FydGEuanBnP3dpZHRoPTEyODAiLAogICAgImNyZWRpdCI6ICJNdWhhbW1hZCBSYXN5aWQgUHJhYm93byAvIFdpa2ltZWRpYSBDb21tb25zIiwKICAgICJhbHQiOiAiSUhTRyBSZWJvdW5kIDEsMzUgUGVyc2VuIGtlIDUuMjE1LDg1IGRpIFRlbmdhaCBLYWJhciBEaWFsb2cgUHJhYm93byBkYW4gTVNDSSIKICB9LAogICJsZWFkIjogIkluZGVrcyBIYXJnYSBTYWhhbSBHYWJ1bmdhbiAoSUhTRykgZGl0dXR1cCBtZW5ndWF0IDY5LDUyIHBvaW4gYXRhdSAxLDM1IHBlcnNlbiBrZSBsZXZlbCA1LjIxNSw4NSBwYWRhIHBlcmRhZ2FuZ2FuIFNlbmluLCAyMyBOb3ZlbWJlciAyMDI2LiBQZW5ndWF0YW4gaW5pIGJlcmJhbGlrIGRhcmkgcGVudXJ1bmFuIG1pbmdndWFuIDMsNzEgcGVyc2VuIHlhbmcgdGVyY2F0YXQgcGFkYSBwZWthbiBzZWJlbHVtbnlhLiBLYWJhciBwZW1iaWNhcmFhbiBQcmVzaWRlbiBQcmFib3dvIFN1YmlhbnRvIGRlbmdhbiBwaW1waW5hbiBNU0NJIG1lbmdlbmFpIGtsYXNpZmlrYXNpIHBhc2FyIHNhaGFtIEluZG9uZXNpYSBpa3V0IG1ld2FybmFpIHBlcmRhZ2FuZ2FuLiIsCiAgInRha2Vhd2F5cyI6IFsKICAgICJTZWt0b3IgYmFoYW4gYmFrdSBtZW1pbXBpbiBwZW5ndWF0YW4gZGVuZ2FuIGtlbmFpa2FuIDQsNDIgcGVyc2VuLCBkaWlrdXRpIHNla3RvciBlbmVyZ2kgZGFuIHRyYW5zcG9ydGFzaS4iLAogICAgIlNlYmFueWFrIDM5OCBzYWhhbSBtZW5ndWF0LCAyNzggc2FoYW0gbWVsZW1haCwgZGFuIDI2OSBzYWhhbSBzdGFnbmFuIHBhZGEgcGVudXR1cGFuIHBlcmRhZ2FuZ2FuLiIsCiAgICAiSW52ZXN0b3IgYXNpbmcgbWVuY2F0YXRrYW4gcGVuanVhbGFuIGJlcnNpaCBScDY3MywxMCBtaWxpYXIgZGkgdGVuZ2FoIHBlbmd1YXRhbiBpbmRla3MuIgogIF0sCiAgInNlY3Rpb25zIjogWwogICAgewogICAgICAiaGVhZGluZyI6ICJQZXJqYWxhbmFuIEluZGVrcyBTZXBhbmphbmcgU2VzaSIsCiAgICAgICJwYXJhZ3JhcGhzIjogWwogICAgICAgICJJSFNHIGRpYnVrYSBkaSBsZXZlbCA1LjEzNCwwNiBwYWRhIHBlcmRhZ2FuZ2FuIFNlbmluLCAyMyBOb3ZlbWJlciAyMDI2LCBsYWx1IHNlbXBhdCB0dXJ1biBtZW55ZW50dWggbGV2ZWwgdGVyZW5kYWggNS4wNjIsMDkgc2ViZWx1bSBiZXJiYWxpayBuYWlrIGhpbmdnYSA1LjI0NCwzNSBkYW4gZGl0dXR1cCBtZW5ndWF0IGRpIDUuMjE1LDg1LiIsCiAgICAgICAgIlRvdGFsIG5pbGFpIHRyYW5zYWtzaSBkaSBidXJzYSBtZW5jYXBhaSBScCAxMCw5NiB0cmlsaXVuLCBkZW5nYW4gMzk4IHNhaGFtIG1lbmd1YXQsIDI3OCBzYWhhbSBtZWxlbWFoLCBkYW4gMjY5IHNhaGFtIHN0YWduYW4uIgogICAgICBdCiAgICB9LAogICAgewogICAgICAiaGVhZGluZyI6ICJLYWJhciBEaWFsb2cgUHJhYm93byBkYW4gTVNDSSIsCiAgICAgICJwYXJhZ3JhcGhzIjogWwogICAgICAgICJQZW5ndWF0YW4gSUhTRyBiZXJsYW5nc3VuZyBkaSB0ZW5nYWgga2FiYXIgcGVtYmljYXJhYW4gUHJlc2lkZW4gUHJhYm93byBTdWJpYW50byBkZW5nYW4gcGltcGluYW4gTVNDSSBtZW5nZW5haSBrbGFzaWZpa2FzaSBwYXNhciBzYWhhbSBJbmRvbmVzaWEuIEthYmFyIHRlcnNlYnV0IG1lbmluZ2thdGthbiBla3NwZWt0YXNpIHRlcmhhZGFwIHBlcmJhaWthbiBwYXNhciBzYWhhbSBkb21lc3Rpay4iLAogICAgICAgICJTZWt0b3IgYmFoYW4gYmFrdSBtZWxvbmphayA0LDQyIHBlcnNlbiBkYW4gbWVtaW1waW4gcGVuZ3VhdGFuIHNla3Rvciwgc2VkYW5na2FuIHNla3RvciBiYXJhbmcga29uc3VtZW4gcHJpbWVyIG1lbGVtYWggMCw0MSBwZXJzZW4gZGFuIHRla25vbG9naSB0dXJ1biAwLDM5IHBlcnNlbi4iCiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJoZWFkaW5nIjogIlBvc2lzaSBJbmRla3MgU2V0ZWxhaCBSZWJvdW5kIiwKICAgICAgInBhcmFncmFwaHMiOiBbCiAgICAgICAgIlBlbnV0dXBhbiBkaSBsZXZlbCA1LjIxNSw4NSBtZW1idWF0IElIU0cgYmVyYmFsaWsgbWVuZ3VhdCBzZXRlbGFoIG1lbmNhdGF0a2FuIHBlbnVydW5hbiBtaW5nZ3VhbiAzLDcxIHBlcnNlbiBwYWRhIHBla2FuIHNlYmVsdW1ueWEsIGRlbmdhbiByZW50YW5nIHBlcmdlcmFrYW4gNS4wNjIsMDkgaGluZ2dhIDUuMjQ0LDM1IHNlcGFuamFuZyBzZXNpLiIKICAgICAgXQogICAgfQogIF0sCiAgInNvdXJjZXMiOiBbCiAgICB7CiAgICAgICJuYW1lIjogIkZYU3RyZWV0IEluZG9uZXNpYSIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly93d3cuZnhzdHJlZXQtaWQuY29tL25ld3MvaWhzZy1tZW5ndWF0LTEtMzUta2UtNTIxNS1rYWJhci1wZW1iaWNhcmFhbi1wcmFib3dvLW1zY2ktamFkaS1zb3JvdGFuLTIwMjYxMTIzMTExOCIKICAgIH0sCiAgICB7CiAgICAgICJuYW1lIjogIkludmVzdG9yLmlkIiwKICAgICAgInVybCI6ICJodHRwczovL2ludmVzdG9yLmlkL21hcmtldC80NjMwMTcvaWhzZy1tZWxhanUtNC1zYWhhbS1tZW50b2stYXJhIgogICAgfSwKICAgIHsKICAgICAgIm5hbWUiOiAiU3RvY2tXYXRjaCIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9zdG9ja3dhdGNoLmlkL2F3YWwtcGVrYW4taWhzZy1uYWlrLTEzNS1rZS1sZXZlbC01LTIxNS1kaXRvcGFuZy0yNDItc2FoYW0tbWVuZ3VhdC8iCiAgICB9CiAgXSwKICAic29jaWFsIjogewogICAgImluc3RhZ3JhbSI6ICJodHRwczovL3d3dy5pbnN0YWdyYW0uY29tL3AvRGdGMmFBV21XdEovIiwKICAgICJmYWNlYm9vayI6ICJodHRwczovL3d3dy5mYWNlYm9vay5jb20vMTE1ODEwNDMwMzgyMjg1OC9wb3N0cy8xMTU4MzI5MTMwNDY3MDQyIgogIH0KfQ==
+{
+  "slug": "ihsg-rebound-di-tengah-kabar-dialog-prabowo-msci",
+  "draft_id": 304,
+  "headline": "IHSG Rebound 1,35 Persen ke 5.215,85 di Tengah Kabar Dialog Prabowo dan MSCI",
+  "seo_title": "IHSG Ditutup Menguat 1,35 Persen ke Level 5.215,85",
+  "meta_description": "IHSG menutup perdagangan Senin, 23 November 2026, dengan penguatan 69,52 poin atau 1,35 persen ke level 5.215,85, ditopang sektor bahan baku dan kabar dialog Prabowo dengan MSCI.",
+  "desk": "Bursa",
+  "kicker": "Bursa Efek Indonesia",
+  "published_at": "2026-11-23T16:51:09.723Z",
+  "date_label": "Senin, 23 November 2026",
+  "cover": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/SCBD,%20Jakarta.jpg?width=1280",
+    "credit": "Muhammad Rasyid Prabowo / Wikimedia Commons",
+    "alt": "IHSG Rebound 1,35 Persen ke 5.215,85 di Tengah Kabar Dialog Prabowo dan MSCI"
+  },
+  "lead": "Indeks Harga Saham Gabungan (IHSG) ditutup menguat 69,52 poin atau 1,35 persen ke level 5.215,85 pada perdagangan Senin, 23 November 2026. Penguatan ini berbalik dari penurunan mingguan 3,71 persen yang tercatat pada pekan sebelumnya. Kabar pembicaraan Presiden Prabowo Subianto dengan pimpinan MSCI mengenai klasifikasi pasar saham Indonesia ikut mewarnai perdagangan.",
+  "takeaways": [
+    "Sektor bahan baku memimpin penguatan dengan kenaikan 4,42 persen, diikuti sektor energi dan transportasi.",
+    "Sebanyak 398 saham menguat, 278 saham melemah, dan 269 saham stagnan pada penutupan perdagangan.",
+    "Investor asing mencatatkan penjualan bersih Rp673,10 miliar di tengah penguatan indeks."
+  ],
+  "sections": [
+    {
+      "heading": "Perjalanan Indeks Sepanjang Sesi",
+      "paragraphs": [
+        "IHSG dibuka di level 5.134,06 pada perdagangan Senin, 23 November 2026, lalu sempat turun menyentuh level terendah 5.062,09 sebelum berbalik naik hingga 5.244,35 dan ditutup menguat di 5.215,85.",
+        "Total nilai transaksi di bursa mencapai Rp 10,96 triliun, dengan 398 saham menguat, 278 saham melemah, dan 269 saham stagnan."
+      ]
+    },
+    {
+      "heading": "Kabar Dialog Prabowo dan MSCI",
+      "paragraphs": [
+        "Penguatan IHSG berlangsung di tengah kabar pembicaraan Presiden Prabowo Subianto dengan pimpinan MSCI mengenai klasifikasi pasar saham Indonesia. Kabar tersebut meningkatkan ekspektasi terhadap perbaikan pasar saham domestik.",
+        "Sektor bahan baku melonjak 4,42 persen dan memimpin penguatan sektor, sedangkan sektor barang konsumen primer melemah 0,41 persen dan teknologi turun 0,39 persen."
+      ]
+    },
+    {
+      "heading": "Posisi Indeks Setelah Rebound",
+      "paragraphs": [
+        "Penutupan di level 5.215,85 membuat IHSG berbalik menguat setelah mencatatkan penurunan mingguan 3,71 persen pada pekan sebelumnya, dengan rentang pergerakan 5.062,09 hingga 5.244,35 sepanjang sesi."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "FXStreet Indonesia",
+      "url": "https://www.fxstreet-id.com/news/ihsg-menguat-1-35-ke-5215-kabar-pembicaraan-prabowo-msci-jadi-sorotan-202611231118"
+    },
+    {
+      "name": "Investor.id",
+      "url": "https://investor.id/market/463017/ihsg-melaju-4-saham-mentok-ara"
+    },
+    {
+      "name": "StockWatch",
+      "url": "https://stockwatch.id/awal-pekan-ihsg-naik-135-ke-level-5-215-ditopang-242-saham-menguat/"
+    }
+  ],
+  "social": {
+    "instagram": "https://www.instagram.com/p/DgF2aAWmWtJ/",
+    "facebook": "https://www.facebook.com/1158104303822858/posts/1158329130467042"
+  }
+}

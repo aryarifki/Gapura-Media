@@ -1,1 +1,83 @@
-e3s8IGxheW91dHMvbWFpbi5kdmV9fQp7eyNibG9jayB0aXRsZX19e3sgYXJ0aWNsZS5zZW9fdGl0bGUgfX0g4oCUIHt7IHNpdGUubmFtZSB9fXt7L2Jsb2NrfX0Ke3sjYmxvY2sgYm9keX19Cgo8YXJ0aWNsZSBjbGFzcz0iY29udGFpbmVyIGFydGljbGUiPgogIDxwIGNsYXNzPSJjcnVtYiI+PGEgaHJlZj0iLyI+QmVyYW5kYTwvYT4gwrcgPHNwYW4+e3sgYXJ0aWNsZS5kZXNrIH19PC9zcGFuPjwvcD4KICA8c3BhbiBjbGFzcz0iY2hpcCI+e3sgYXJ0aWNsZS5kZXNrIH19PC9zcGFuPgogIDxoMSBjbGFzcz0iYXJ0aWNsZS1oZWFkbGluZSI+e3sgYXJ0aWNsZS5oZWFkbGluZSB9fTwvaDE+CiAgPHAgY2xhc3M9Im1ldGEtbGluZSI+e3sgYXJ0aWNsZS5kYXRlX2xhYmVsIH19IMK3IEdhcHVyYSBNZWRpYSDCtyBTdW1iZXI6IHt7IGFydGljbGUuc291cmNlcy5sZW5ndGggfX0gcGVuZXJiaXQ8L3A+CgogIDxmaWd1cmUgY2xhc3M9ImFydGljbGUtY292ZXIiPgogICAgPGltZyBzcmM9Int7IGFydGljbGUuY292ZXIuc3JjIH19IiBhbHQ9Int7IGFydGljbGUuY292ZXIuYWx0IH19Ij4KICAgIHt7I2lmIGFydGljbGUuY292ZXIuY3JlZGl0fX08ZmlnY2FwdGlvbj5HYW1iYXI6IHt7IGFydGljbGUuY292ZXIuY3JlZGl0IH19PC9maWdjYXB0aW9uPnt7L2lmfX0KICA8L2ZpZ3VyZT4KCiAgPHAgY2xhc3M9ImFydGljbGUtbGVhZCI+e3sgYXJ0aWNsZS5sZWFkIH19PC9wPgoKICB7eyNpZiBhcnRpY2xlLnRha2Vhd2F5cy5sZW5ndGh9fQogIDxhc2lkZSBjbGFzcz0idGFrZWF3YXlzIj4KICAgIDxoMj5Qb2luIFBlbnRpbmc8L2gyPgogICAgPHVsPgogICAgICB7eyNlYWNoIGFydGljbGUudGFrZWF3YXlzIGFzIHR+fX0KICAgICAgPGxpPnt7IHQgfX08L2xpPgogICAgICB7e34vZWFjaH19CiAgICA8L3VsPgogIDwvYXNpZGU+CiAge3svaWZ9fQoKICB7eyNlYWNoIGFydGljbGUuc2VjdGlvbnMgYXMgc359fQogIDxzZWN0aW9uIGNsYXNzPSJhcnRpY2xlLXNlY3Rpb24iPgogICAge3sjaWYgcy5oZWFkaW5nfX08aDI+e3sgcy5oZWFkaW5nIH19PC9oMj57ey9pZn19CiAgICB7eyNlYWNoIHMucGFyYWdyYXBocyBhcyBwfn19CiAgICA8cD57eyBwIH19PC9wPgogICAge3t+L2VhY2h9fQogIDwvc2VjdGlvbj4KICB7e34vZWFjaH19CgogIHt7I2lmIGFydGljbGUuc291cmNlcy5sZW5ndGh9fQogIDxhc2lkZSBjbGFzcz0ic291cmNlcyI+CiAgICA8aDI+U3VtYmVyIEJlcml0YTwvaDI+CiAgICA8dWw+CiAgICAgIHt7I2VhY2ggYXJ0aWNsZS5zb3VyY2VzIGFzIHN+fX0KICAgICAgPGxpPjxhIGhyZWY9Int7IHMudXJsIH19IiB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciI+e3sgcy5uYW1lIH19PC9hPjwvbGk+CiAgICAgIHt7fi9lYWNofX0KICAgIDwvdWw+CiAgPC9hc2lkZT4KICB7ey9pZn19CgogIDxhc2lkZSBjbGFzcz0ic29jaWFsLWJveCI+CiAgICA8aDI+QmVyaXRhIGluaSBqdWdhIHRlcmJpdCBkaTwvaDI+CiAgICA8ZGl2IGNsYXNzPSJhYm91dC1hY3Rpb25zIj4KICAgICAge3sjaWYgYXJ0aWNsZS5zb2NpYWwuaW5zdGFncmFtfX08YSBjbGFzcz0iYnRuLWRhcmsiIGhyZWY9Int7IGFydGljbGUuc29jaWFsLmluc3RhZ3JhbSB9fSIgdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9vcGVuZXIiPkluc3RhZ3JhbSBAZ2FwdXJhbWVkaWE8L2E+e3svaWZ9fQogICAgICB7eyNpZiBhcnRpY2xlLnNvY2lhbC5mYWNlYm9va319PGEgY2xhc3M9ImJ0bi1naG9zdCIgaHJlZj0ie3sgYXJ0aWNsZS5zb2NpYWwuZmFjZWJvb2sgfX0iIHRhcmdldD0iX2JsYW5rIiByZWw9Im5vb3BlbmVyIj5GYWNlYm9vayBHYXB1cmEgTWVkaWE8L2E+e3svaWZ9fQogICAgPC9kaXY+CiAgPC9hc2lkZT4KPC9hcnRpY2xlPgoKe3sjaWYgb3RoZXJzLmxlbmd0aH19CjxzZWN0aW9uIGNsYXNzPSJjb250YWluZXIgc2VjdGlvbi1ibG9jayI+CiAgPGRpdiBjbGFzcz0ic2VjdGlvbi1oZWFkIj4KICAgIDxoMj5BcnRpa2VsIExhaW5ueWE8L2gyPgogICAgPHNwYW4gY2xhc3M9InNlY3Rpb24tcnVsZSIgYXJpYS1oaWRkZW49InRydWUiPjwvc3Bhbj4KICA8L2Rpdj4KICA8ZGl2IGNsYXNzPSJncmlkIj4KICAgIHt7I2VhY2ggb3RoZXJzIGFzIGF+fX0KICAgIDxhcnRpY2xlIGNsYXNzPSJjYXJkIj4KICAgICAgPGEgY2xhc3M9ImNhcmQtbWVkaWEiIGhyZWY9Ii9hcnRpa2VsL3t7IGEuc2x1ZyB9fS8iPgogICAgICAgIDxpbWcgc3JjPSJ7eyBhLmNvdmVyLnNyYyB9fSIgYWx0PSJ7eyBhLmNvdmVyLmFsdCB9fSIgbG9hZGluZz0ibGF6eSI+CiAgICAgIDwvYT4KICAgICAgPGRpdiBjbGFzcz0iY2FyZC1ib2R5Ij4KICAgICAgICA8c3BhbiBjbGFzcz0iY2hpcCI+e3sgYS5kZXNrIH19PC9zcGFuPgogICAgICAgIDxoMyBjbGFzcz0iY2FyZC10aXRsZSI+PGEgaHJlZj0iL2FydGlrZWwve3sgYS5zbHVnIH19LyI+e3sgYS5oZWFkbGluZSB9fTwvYT48L2gzPgogICAgICAgIDxwIGNsYXNzPSJtZXRhLWxpbmUiPnt7IGEuZGF0ZV9sYWJlbCB9fTwvcD4KICAgICAgPC9kaXY+CiAgICA8L2FydGljbGU+CiAgICB7e34vZWFjaH19CiAgPC9kaXY+Cjwvc2VjdGlvbj4Ke3svaWZ9fQoKe3svYmxvY2t9fQoKe3svfX0K
+{{< layouts/main.dve}}
+{{#block title}}{{ article.seo_title }} — {{ site.name }}{{/block}}
+{{#block body}}
+
+<article class="container article">
+  <p class="crumb"><a href="/">Beranda</a> · <span>{{ article.desk }}</span></p>
+  <span class="chip">{{ article.desk }}</span>
+  <h1 class="article-headline">{{ article.headline }}</h1>
+  <p class="meta-line">{{ article.date_label }} · Gapura Media · Sumber: {{ article.sources.length }} penerbit</p>
+
+  <figure class="article-cover">
+    <img src="{{ article.cover.src }}" alt="{{ article.cover.alt }}">
+    {{#if article.cover.credit}}<figcaption>Gambar: {{ article.cover.credit }}</figcaption>{{/if}}
+  </figure>
+
+  <p class="article-lead">{{ article.lead }}</p>
+
+  {{#if article.takeaways.length}}
+  <aside class="takeaways">
+    <h2>Poin Penting</h2>
+    <ul>
+      {{#each article.takeaways as t~}}
+      <li>{{ t }}</li>
+      {{~/each}}
+    </ul>
+  </aside>
+  {{/if}}
+
+  {{#each article.sections as s~}}
+  <section class="article-section">
+    {{#if s.heading}}<h2>{{ s.heading }}</h2>{{/if}}
+    {{#each s.paragraphs as p~}}
+    <p>{{ p }}</p>
+    {{~/each}}
+  </section>
+  {{~/each}}
+
+  {{#if article.sources.length}}
+  <aside class="sources">
+    <h2>Sumber Berita</h2>
+    <ul>
+      {{#each article.sources as s~}}
+      <li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a></li>
+      {{~/each}}
+    </ul>
+  </aside>
+  {{/if}}
+
+  <aside class="social-box">
+    <h2>Berita ini juga terbit di</h2>
+    <div class="about-actions">
+      {{#if article.social.instagram}}<a class="btn-dark" href="{{ article.social.instagram }}" target="_blank" rel="noopener">Instagram @gapuramedia</a>{{/if}}
+      {{#if article.social.facebook}}<a class="btn-ghost" href="{{ article.social.facebook }}" target="_blank" rel="noopener">Facebook Gapura Media</a>{{/if}}
+    </div>
+  </aside>
+</article>
+
+{{#if others.length}}
+<section class="container section-block">
+  <div class="section-head">
+    <h2>Artikel Lainnya</h2>
+    <span class="section-rule" aria-hidden="true"></span>
+  </div>
+  <div class="grid">
+    {{#each others as a~}}
+    <article class="card">
+      <a class="card-media" href="/artikel/{{ a.slug }}/">
+        <img src="{{ a.cover.src }}" alt="{{ a.cover.alt }}" loading="lazy">
+      </a>
+      <div class="card-body">
+        <span class="chip">{{ a.desk }}</span>
+        <h3 class="card-title"><a href="/artikel/{{ a.slug }}/">{{ a.headline }}</a></h3>
+        <p class="meta-line">{{ a.date_label }}</p>
+      </div>
+    </article>
+    {{~/each}}
+  </div>
+</section>
+{{/if}}
+
+{{/block}}
+
+{{/}}

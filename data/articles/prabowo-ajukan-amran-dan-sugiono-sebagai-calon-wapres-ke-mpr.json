@@ -1,1 +1,62 @@
-ewogICJzbHVnIjogInByYWJvd28tYWp1a2FuLWFtcmFuLWRhbi1zdWdpb25vLXNlYmFnYWktY2Fsb24td2FwcmVzLWtlLW1wciIsCiAgImRyYWZ0X2lkIjogMTUsCiAgImhlYWRsaW5lIjogIlByYWJvd28gQWp1a2FuIEFtcmFuIFN1bGFpbWFuIGRhbiBTdWdpb25vIHNlYmFnYWkgQ2Fsb24gV2FraWwgUHJlc2lkZW4ga2UgTVBSIiwKICAic2VvX3RpdGxlIjogIlByYWJvd28gQWp1a2FuIEFtcmFuIGRhbiBTdWdpb25vIHNlYmFnYWkgQ2Fsb24gV2FwcmVzIGtlIE1QUiIsCiAgIm1ldGFfZGVzY3JpcHRpb24iOiAiUHJhYm93byBtZW55ZXJhaGthbiBuYW1hIEFtcmFuIFN1bGFpbWFuIGRhbiBTdWdpb25vIGtlIE1QUiBwYWRhIDIzIE5vdmVtYmVyIDIwMjYgc2ViYWdhaSBjYWxvbiB3YWtpbCBwcmVzaWRlbjsgc2lkYW5nIHBlbWlsaWhhbiBkaWphZHdhbGthbiAxMSBEZXNlbWJlciAyMDI2LiIsCiAgImRlc2siOiAiUG9saXRpayIsCiAgImtpY2tlciI6ICJNYWplbGlzIFBlcm11c3lhd2FyYXRhbiBSYWt5YXQiLAogICJwdWJsaXNoZWRfYXQiOiAiMjAyNi0xMS0yNFQwMDoxMzo0Ni42MDRaIiwKICAiZGF0ZV9sYWJlbCI6ICJTZWxhc2EsIDI0IE5vdmVtYmVyIDIwMjYiLAogICJjb3ZlciI6IHsKICAgICJzcmMiOiAiaHR0cHM6Ly9nYXB1cmEuYXZlbmlhLm15LmlkL3N0b3JhZ2UvZHJhZnRzLzE1L3NsaWRlXzEucG5nIiwKICAgICJjcmVkaXQiOiAiRGF2aWRlbGl0IC8gV2lraW1lZGlhIENvbW1vbnMiLAogICAgImFsdCI6ICJQcmFib3dvIEFqdWthbiBBbXJhbiBTdWxhaW1hbiBkYW4gU3VnaW9ubyBzZWJhZ2FpIENhbG9uIFdha2lsIFByZXNpZGVuIGtlIE1QUiIKICB9LAogICJsZWFkIjogIlByZXNpZGVuIFByYWJvd28gU3ViaWFudG8gbWVueWVyYWhrYW4gZHVhIG5hbWEgY2Fsb24gd2FraWwgcHJlc2lkZW4ga2VwYWRhIE1hamVsaXMgUGVybXVzeWF3YXJhdGFuIFJha3lhdCAoTVBSKSBwYWRhIFNlbmluLCAyMyBOb3ZlbWJlciAyMDI2LiBEdWEgbmFtYSB5YW5nIGRpdXN1bGthbiBhZGFsYWggTWVudGVyaSBQZXJ0YW5pYW4gQW5kaSBBbXJhbiBTdWxhaW1hbiBkYW4gTWVudGVyaSBLb29yZGluYXRvciBCaWRhbmcgUGVtYmFuZ3VuYW4gTWFudXNpYSBkYW4gS2VidWRheWFhbiAoTWVua28gUE1LKSBTdWdpb25vLiBLZWR1YW55YSBkaXVzdWxrYW4gdW50dWsgbWVuZ2lzaSBrZWtvc29uZ2FuIGphYmF0YW4gd2FraWwgcHJlc2lkZW4gZGFuIG1lbnllbGVzYWlrYW4gc2lzYSBtYXNhIGphYmF0YW4gMjAyNOKAkzIwMjkuIiwKICAidGFrZWF3YXlzIjogWwogICAgIkFtcmFuIFN1bGFpbWFuIGRhbiBTdWdpb25vIGRpdXN1bGthbiB1bnR1ayBtZW55ZWxlc2Fpa2FuIHNpc2EgbWFzYSBqYWJhdGFuIHdha2lsIHByZXNpZGVuIHBlcmlvZGUgMjAyNOKAkzIwMjkuIiwKICAgICJUaW0gVmVyaWZpa2FzaSBNUFIgbWVtdWxhaSBwZW1lcmlrc2FhbiBhZG1pbmlzdHJhc2kga2VkdWEga2FuZGlkYXQgcGFkYSBTZW5pbiBtYWxhbSwgMjMgTm92ZW1iZXIgMjAyNi4iLAogICAgIlNpZGFuZyBQYXJpcHVybmEgTVBSIHVudHVrIG1lbWlsaWggd2FraWwgcHJlc2lkZW4gZGlqYWR3YWxrYW4gcGFkYSAxMSBEZXNlbWJlciAyMDI2LiIKICBdLAogICJzZWN0aW9ucyI6IFsKICAgIHsKICAgICAgImhlYWRpbmciOiAiUGVueWVyYWhhbiBOYW1hIGtlIE1QUiIsCiAgICAgICJwYXJhZ3JhcGhzIjogWwogICAgICAgICJLZXR1YSBNUFIgQWhtYWQgTXV6YW5pIG1lbmVyaW1hIGxhbmdzdW5nIHVzdWxhbiB0ZXJzZWJ1dCBkYXJpIFByYWJvd28gZGFsYW0gcGVydGVtdWFuIGRpIFJ1YW5nIFB1c3Rha2Fsb2thLCBHZWR1bmcgTnVzYW50YXJhIElWLCBLb21wbGVrcyBQYXJsZW1lbiwgU2VuYXlhbiwgSmFrYXJ0YSwgc2VraXRhciBwdWt1bCAxNy4wMCBXSUIuIE11emFuaSBrZW11ZGlhbiBtZW5ndW11bWthbiBrZWR1YSBuYW1hIGl0dSBkYWxhbSBrb25mZXJlbnNpIHBlcnMgc2V0ZWxhaCBtZW5lcmltYSBzdXJhdCByZXNtaSBkYXJpIFByZXNpZGVuIFByYWJvd28uIiwKICAgICAgICAiVGltIFZlcmlmaWthc2kgTVBSIGxhbmdzdW5nIG1lbXVsYWkgcGVtZXJpa3NhYW4gYWRtaW5pc3RyYXNpIGtlZHVhIGthbmRpZGF0IHBhZGEgU2VuaW4gbWFsYW0sIDIzIE5vdmVtYmVyIDIwMjYsIHNldGVsYWggbWVuZXJpbWEgZG9rdW1lbiByZXNtaSBkYXJpIFByZXNpZGVuLiBQZW5nYWp1YW4gaW5pIG1lbnl1c3VsIHBlbmd1bmR1cmFuIGRpcmkgR2licmFuIFJha2FidW1pbmcgUmFrYSBkYXJpIGphYmF0YW4gd2FraWwgcHJlc2lkZW4gcGFkYSAxMiBOb3ZlbWJlciAyMDI2LiIKICAgICAgXQogICAgfSwKICAgIHsKICAgICAgImhlYWRpbmciOiAiQXR1cmFuIFBlbmdpc2lhbiBKYWJhdGFuIHlhbmcgS29zb25nIiwKICAgICAgInBhcmFncmFwaHMiOiBbCiAgICAgICAgIlBlbmdpc2lhbiBqYWJhdGFuIHdha2lsIHByZXNpZGVuIHlhbmcga29zb25nIGRpbGFrdWthbiBvbGVoIE1QUiwgYnVrYW4gbWVsYWx1aSBwZW11bmd1dGFuIHN1YXJhIGxhbmdzdW5nIG9sZWggbWFzeWFyYWthdC4gQmVyZGFzYXJrYW4gUGFzYWwgOCBheWF0ICgyKSBVbmRhbmctVW5kYW5nIERhc2FyIDE5NDUsIGFwYWJpbGEgdGVyamFkaSBrZWtvc29uZ2FuIGphYmF0YW4gd2FraWwgcHJlc2lkZW4sIE1QUiBoYXJ1cyBtZW55ZWxlbmdnYXJha2FuIHNpZGFuZyBwYWxpbmcgbGFtYmF0IDYwIGhhcmkgdW50dWsgbWVtaWxpaCBzYXR1IGRhcmkgZHVhIGNhbG9uIHlhbmcgZGlhanVrYW4gcHJlc2lkZW4uIiwKICAgICAgICAiU2lkYW5nIFBhcmlwdXJuYSBNUFIgdW50dWsgbWVtaWxpaCB3YWtpbCBwcmVzaWRlbiBkaWphZHdhbGthbiBwYWRhIDExIERlc2VtYmVyIDIwMjYuIEphZHdhbCBpbmkgYmVyZ2VzZXIgZGFyaSByZW5jYW5hIHNlbXVsYSBwYWRhIDkgRGVzZW1iZXIgMjAyNiBzZXRlbGFoIG11bmN1bCBtYXN1a2FuIHRlcmthaXQgcGVuZ2hpdHVuZ2FuIHRlbmdnYXQgcGVuZ2FqdWFuIG5hbWEga2FuZGlkYXQgc2ViZWx1bSBzaWRhbmcgcGFyaXB1cm5hLiIKICAgICAgXQogICAgfSwKICAgIHsKICAgICAgImhlYWRpbmciOiAiRHVhIE5hbWEgeWFuZyBEaXVzdWxrYW4iLAogICAgICAicGFyYWdyYXBocyI6IFsKICAgICAgICAiQW1yYW4gU3VsYWltYW4gbWVuamFiYXQgTWVudGVyaSBQZXJ0YW5pYW4sIHNlZGFuZ2thbiBTdWdpb25vIG1lbmphYmF0IE1lbnRlcmkgS29vcmRpbmF0b3IgQmlkYW5nIFBlbWJhbmd1bmFuIE1hbnVzaWEgZGFuIEtlYnVkYXlhYW4gKE1lbmtvIFBNSykgc2VrYWxpZ3VzIFNla3JldGFyaXMgSmVuZGVyYWwgUGFydGFpIEdlcmluZHJhLiBQcmFib3dvIG1lbnlhbXBhaWthbiBiYWh3YSBwZXJ0aW1iYW5nYW4gcGVuZ3VzdWxhbiBrZWR1YSBuYW1hIGl0dSBhbnRhcmEgbGFpbiByZWthbSBqZWphaywgcHJlc3Rhc2ksIHNlcnRhIHBlbmdhYmRpYW4gZGFuIGtlc2V0aWFhbiBrZXBhZGEgbmVnYXJhLiIKICAgICAgXQogICAgfQogIF0sCiAgInNvdXJjZXMiOiBbCiAgICB7CiAgICAgICJuYW1lIjogIkNOQSBJbmRvbmVzaWEiLAogICAgICAidXJsIjogImh0dHBzOi8vd3d3LmNuYS5pZC9pbmRvbmVzaWEvc3VnaW9uby1hbXJhbi1zdWxhaW1hbi1jYWxvbi13YXByZXMtcGVuZ2dhbnRpLWdpYnJhbi01MzMxNiIKICAgIH0sCiAgICB7CiAgICAgICJuYW1lIjogIlRSVCBJbmRvbmVzaWEiLAogICAgICAidXJsIjogImh0dHBzOi8vd3d3LnRydGluZG9uZXNpYS5jb20vYXJ0aWNsZS82MzliYTNkNDNlYjQiCiAgICB9LAogICAgewogICAgICAibmFtZSI6ICJERFRDIE5ld3MiLAogICAgICAidXJsIjogImh0dHBzOi8vbmV3cy5kZHRjLmNvLmlkL2Jlcml0YS9uYXNpb25hbC8xODI0MzU3L3ByYWJvd28tdXN1bGthbi1hbXJhbi1kYW4tc3VnaW9uby1qYWRpLWNhbG9uLXdha2lsLXByZXNpZGVuIgogICAgfQogIF0sCiAgInNvY2lhbCI6IHsKICAgICJpbnN0YWdyYW0iOiAiaHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9wL0RnR3BFTFlHUmZjLyIsCiAgICAiZmFjZWJvb2siOiAiaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tLzExNTgxMDQzMDM4MjI4NTgvcG9zdHMvMTE1ODYyNDc3Mzc3MDgxMSIKICB9Cn0K
+{
+  "slug": "prabowo-ajukan-amran-dan-sugiono-sebagai-calon-wapres-ke-mpr",
+  "draft_id": 15,
+  "headline": "Prabowo Ajukan Amran Sulaiman dan Sugiono sebagai Calon Wakil Presiden ke MPR",
+  "seo_title": "Prabowo Ajukan Amran dan Sugiono sebagai Calon Wapres ke MPR",
+  "meta_description": "Prabowo menyerahkan nama Amran Sulaiman dan Sugiono ke MPR pada 23 November 2026 sebagai calon wakil presiden; sidang pemilihan dijadwalkan 11 Desember 2026.",
+  "desk": "Politik",
+  "kicker": "Majelis Permusyawaratan Rakyat",
+  "published_at": "2026-11-24T00:13:46.604Z",
+  "date_label": "Selasa, 24 November 2026",
+  "cover": {
+    "src": "https://gapura.avenia.my.id/storage/drafts/15/slide_1.png",
+    "credit": "Davidelit / Wikimedia Commons",
+    "alt": "Prabowo Ajukan Amran Sulaiman dan Sugiono sebagai Calon Wakil Presiden ke MPR"
+  },
+  "lead": "Presiden Prabowo Subianto menyerahkan dua nama calon wakil presiden kepada Majelis Permusyawaratan Rakyat (MPR) pada Senin, 23 November 2026. Dua nama yang diusulkan adalah Menteri Pertanian Andi Amran Sulaiman dan Menteri Koordinator Bidang Pembangunan Manusia dan Kebudayaan (Menko PMK) Sugiono. Keduanya diusulkan untuk mengisi kekosongan jabatan wakil presiden dan menyelesaikan sisa masa jabatan 2024–2029.",
+  "takeaways": [
+    "Amran Sulaiman dan Sugiono diusulkan untuk menyelesaikan sisa masa jabatan wakil presiden periode 2024–2029.",
+    "Tim Verifikasi MPR memulai pemeriksaan administrasi kedua kandidat pada Senin malam, 23 November 2026.",
+    "Sidang Paripurna MPR untuk memilih wakil presiden dijadwalkan pada 11 Desember 2026."
+  ],
+  "sections": [
+    {
+      "heading": "Penyerahan Nama ke MPR",
+      "paragraphs": [
+        "Ketua MPR Ahmad Muzani menerima langsung usulan tersebut dari Prabowo dalam pertemuan di Ruang Pustakaloka, Gedung Nusantara IV, Kompleks Parlemen, Senayan, Jakarta, sekitar pukul 17.00 WIB. Muzani kemudian mengumumkan kedua nama itu dalam konferensi pers setelah menerima surat resmi dari Presiden Prabowo.",
+        "Tim Verifikasi MPR langsung memulai pemeriksaan administrasi kedua kandidat pada Senin malam, 23 November 2026, setelah menerima dokumen resmi dari Presiden. Pengajuan ini menyusul pengunduran diri Gibran Rakabuming Raka dari jabatan wakil presiden pada 12 November 2026."
+      ]
+    },
+    {
+      "heading": "Aturan Pengisian Jabatan yang Kosong",
+      "paragraphs": [
+        "Pengisian jabatan wakil presiden yang kosong dilakukan oleh MPR, bukan melalui pemungutan suara langsung oleh masyarakat. Berdasarkan Pasal 8 ayat (2) Undang-Undang Dasar 1945, apabila terjadi kekosongan jabatan wakil presiden, MPR harus menyelenggarakan sidang paling lambat 60 hari untuk memilih satu dari dua calon yang diajukan presiden.",
+        "Sidang Paripurna MPR untuk memilih wakil presiden dijadwalkan pada 11 Desember 2026. Jadwal ini bergeser dari rencana semula pada 9 Desember 2026 setelah muncul masukan terkait penghitungan tenggat pengajuan nama kandidat sebelum sidang paripurna."
+      ]
+    },
+    {
+      "heading": "Dua Nama yang Diusulkan",
+      "paragraphs": [
+        "Amran Sulaiman menjabat Menteri Pertanian, sedangkan Sugiono menjabat Menteri Koordinator Bidang Pembangunan Manusia dan Kebudayaan (Menko PMK) sekaligus Sekretaris Jenderal Partai Gerindra. Prabowo menyampaikan bahwa pertimbangan pengusulan kedua nama itu antara lain rekam jejak, prestasi, serta pengabdian dan kesetiaan kepada negara."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "CNA Indonesia",
+      "url": "https://www.cna.id/indonesia/sugiono-amran-sulaiman-calon-wapres-pengganti-gibran-53316"
+    },
+    {
+      "name": "TRT Indonesia",
+      "url": "https://www.trtindonesia.com/article/639ba3d43eb4"
+    },
+    {
+      "name": "DDTC News",
+      "url": "https://news.ddtc.co.id/berita/nasional/1824357/prabowo-usulkan-amran-dan-sugiono-jadi-calon-wakil-presiden"
+    }
+  ],
+  "social": {
+    "instagram": "https://www.instagram.com/p/DgGpELYGRfc/",
+    "facebook": "https://www.facebook.com/1158104303822858/posts/1158624773770811"
+  }
+}

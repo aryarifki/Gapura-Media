@@ -1,1 +1,54 @@
-e3s8IGxheW91dHMvbWFpbi5kdmV9fQp7eyNibG9jayB0aXRsZX19e3sgc2l0ZS5uYW1lIH19IOKAlCBCZXJpdGEgTGVuZ2thcCBQb2xpdGlrLCBFa29ub21pICZhbXA7IEJ1cnNhe3svYmxvY2t9fQp7eyNibG9jayBib2R5fX0KCnt7I2lmIGZlYXR1cmVkfX0KPHNlY3Rpb24gY2xhc3M9Imhlcm8gY29udGFpbmVyIj4KICA8YSBjbGFzcz0iaGVyby1jYXJkIiBocmVmPSIvYXJ0aWtlbC97eyBmZWF0dXJlZC5zbHVnIH19LyI+CiAgICA8ZGl2IGNsYXNzPSJoZXJvLW1lZGlhIj4KICAgICAgPGltZyBzcmM9Int7IGZlYXR1cmVkLmNvdmVyLnNyYyB9fSIgYWx0PSJ7eyBmZWF0dXJlZC5jb3Zlci5hbHQgfX0iIGxvYWRpbmc9ImVhZ2VyIj4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iaGVyby1ib2R5Ij4KICAgICAgPHNwYW4gY2xhc3M9ImNoaXAiPnt7IGZlYXR1cmVkLmRlc2sgfX08L3NwYW4+CiAgICAgIDxoMSBjbGFzcz0iaGVyby1oZWFkbGluZSI+e3sgZmVhdHVyZWQuaGVhZGxpbmUgfX08L2gxPgogICAgICA8cCBjbGFzcz0iaGVyby1sZWFkIj57eyBmZWF0dXJlZC5tZXRhX2Rlc2NyaXB0aW9uIH19PC9wPgogICAgICA8cCBjbGFzcz0ibWV0YS1saW5lIj57eyBmZWF0dXJlZC5kYXRlX2xhYmVsIH19IMK3IEdhcHVyYSBNZWRpYTwvcD4KICAgIDwvZGl2PgogIDwvYT4KPC9zZWN0aW9uPgp7ey9pZn19Cgo8c2VjdGlvbiBjbGFzcz0iY29udGFpbmVyIHNlY3Rpb24tYmxvY2siPgogIDxkaXYgY2xhc3M9InNlY3Rpb24taGVhZCI+CiAgICA8aDI+QmVyaXRhIFRlcmJhcnU8L2gyPgogICAgPHNwYW4gY2xhc3M9InNlY3Rpb24tcnVsZSIgYXJpYS1oaWRkZW49InRydWUiPjwvc3Bhbj4KICA8L2Rpdj4KICA8ZGl2IGNsYXNzPSJncmlkIj4KICAgIHt7I2VhY2ggcmVzdCBhcyBhfn19CiAgICA8YXJ0aWNsZSBjbGFzcz0iY2FyZCI+CiAgICAgIDxhIGNsYXNzPSJjYXJkLW1lZGlhIiBocmVmPSIvYXJ0aWtlbC97eyBhLnNsdWcgfX0vIj4KICAgICAgICA8aW1nIHNyYz0ie3sgYS5jb3Zlci5zcmMgfX0iIGFsdD0ie3sgYS5jb3Zlci5hbHQgfX0iIGxvYWRpbmc9ImxhenkiPgogICAgICA8L2E+CiAgICAgIDxkaXYgY2xhc3M9ImNhcmQtYm9keSI+CiAgICAgICAgPHNwYW4gY2xhc3M9ImNoaXAiPnt7IGEuZGVzayB9fTwvc3Bhbj4KICAgICAgICA8aDMgY2xhc3M9ImNhcmQtdGl0bGUiPjxhIGhyZWY9Ii9hcnRpa2VsL3t7IGEuc2x1ZyB9fS8iPnt7IGEuaGVhZGxpbmUgfX08L2E+PC9oMz4KICAgICAgICA8cCBjbGFzcz0iY2FyZC1kZXNjIj57eyBhLm1ldGFfZGVzY3JpcHRpb24gfX08L3A+CiAgICAgICAgPHAgY2xhc3M9Im1ldGEtbGluZSI+e3sgYS5kYXRlX2xhYmVsIH19PC9wPgogICAgICA8L2Rpdj4KICAgIDwvYXJ0aWNsZT4KICAgIHt7fi9lYWNofX0KICA8L2Rpdj4KPC9zZWN0aW9uPgoKPHNlY3Rpb24gY2xhc3M9ImNvbnRhaW5lciBhYm91dC1zdHJpcCI+CiAgPGgyPlZlcnNpIGxlbmdrYXAgZGFyaSBzZXRpYXAgYmVyaXRhPC9oMj4KICA8cD5TZXRpYXAgY2Fyb3VzZWwgeWFuZyB0ZXJiaXQgZGkgSW5zdGFncmFtIGRhbiBGYWNlYm9vayA8c3Ryb25nPkBnYXB1cmFtZWRpYTwvc3Ryb25nPiBtZW1pbGlraSB2ZXJzaSBhcnRpa2VsIHV0dWggZGkgc2luaSDigJQga29udGVrcyBwZW51aCwgZGF0YSBwZW5kdWt1bmcsIGRhbiBzdW1iZXIgeWFuZyBiaXNhIGthbXUgcGVyaWtzYSBzZW5kaXJpLjwvcD4KICA8ZGl2IGNsYXNzPSJhYm91dC1hY3Rpb25zIj4KICAgIDxhIGNsYXNzPSJidG4tZGFyayIgaHJlZj0ie3sgc29jaWFscy5pbnN0YWdyYW0gfX0iIHRhcmdldD0iX2JsYW5rIiByZWw9Im5vb3BlbmVyIj5Ja3V0aSBkaSBJbnN0YWdyYW08L2E+CiAgICA8YSBjbGFzcz0iYnRuLWdob3N0IiBocmVmPSJ7eyBzb2NpYWxzLmZhY2Vib29rIH19IiB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciI+SWt1dGkgZGkgRmFjZWJvb2s8L2E+CiAgPC9kaXY+Cjwvc2VjdGlvbj4KCnt7L2Jsb2NrfX0KCnt7L319Cg==
+{{< layouts/main.dve}}
+{{#block title}}{{ site.name }} — Berita Lengkap Politik, Ekonomi &amp; Bursa{{/block}}
+{{#block body}}
+
+{{#if featured}}
+<section class="hero container">
+  <a class="hero-card" href="/artikel/{{ featured.slug }}/">
+    <div class="hero-media">
+      <img src="{{ featured.cover.src }}" alt="{{ featured.cover.alt }}" loading="eager">
+    </div>
+    <div class="hero-body">
+      <span class="chip">{{ featured.desk }}</span>
+      <h1 class="hero-headline">{{ featured.headline }}</h1>
+      <p class="hero-lead">{{ featured.meta_description }}</p>
+      <p class="meta-line">{{ featured.date_label }} · Gapura Media</p>
+    </div>
+  </a>
+</section>
+{{/if}}
+
+<section class="container section-block">
+  <div class="section-head">
+    <h2>Berita Terbaru</h2>
+    <span class="section-rule" aria-hidden="true"></span>
+  </div>
+  <div class="grid">
+    {{#each rest as a~}}
+    <article class="card">
+      <a class="card-media" href="/artikel/{{ a.slug }}/">
+        <img src="{{ a.cover.src }}" alt="{{ a.cover.alt }}" loading="lazy">
+      </a>
+      <div class="card-body">
+        <span class="chip">{{ a.desk }}</span>
+        <h3 class="card-title"><a href="/artikel/{{ a.slug }}/">{{ a.headline }}</a></h3>
+        <p class="card-desc">{{ a.meta_description }}</p>
+        <p class="meta-line">{{ a.date_label }}</p>
+      </div>
+    </article>
+    {{~/each}}
+  </div>
+</section>
+
+<section class="container about-strip">
+  <h2>Versi lengkap dari setiap berita</h2>
+  <p>Setiap carousel yang terbit di Instagram dan Facebook <strong>@gapuramedia</strong> memiliki versi artikel utuh di sini — konteks penuh, data pendukung, dan sumber yang bisa kamu periksa sendiri.</p>
+  <div class="about-actions">
+    <a class="btn-dark" href="{{ socials.instagram }}" target="_blank" rel="noopener">Ikuti di Instagram</a>
+    <a class="btn-ghost" href="{{ socials.facebook }}" target="_blank" rel="noopener">Ikuti di Facebook</a>
+  </div>
+</section>
+
+{{/block}}
+
+{{/}}

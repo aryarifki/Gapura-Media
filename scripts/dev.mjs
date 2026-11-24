@@ -1,1 +1,25 @@
-Ly8gRGV2IHNlcnZlcjogYnVpbGQgc2VrYWxpIGxhbHUgc2FqaWthbiBkaXN0LyBzZWNhcmEgc3RhdGlzLgppbXBvcnQgeyBjcmVhdGVTZXJ2ZXIgfSBmcm9tICdub2RlOmh0dHAnCmltcG9ydCB7IHJlYWRGaWxlU3luYywgZXhpc3RzU3luYywgc3RhdFN5bmMgfSBmcm9tICdub2RlOmZzJwppbXBvcnQgeyBqb2luLCBleHRuYW1lLCBkaXJuYW1lLCBub3JtYWxpemUgfSBmcm9tICdub2RlOnBhdGgnCmltcG9ydCB7IGZpbGVVUkxUb1BhdGggfSBmcm9tICdub2RlOnVybCcKaW1wb3J0IHsgYnVpbGQgfSBmcm9tICcuL2J1aWxkLm1qcycKCmNvbnN0IHJvb3QgPSBqb2luKGRpcm5hbWUoZmlsZVVSTFRvUGF0aChpbXBvcnQubWV0YS51cmwpKSwgJy4uJykKY29uc3QgZGlzdERpciA9IGpvaW4ocm9vdCwgJ2Rpc3QnKQpidWlsZCh7IHF1aWV0OiB0cnVlIH0pCgpjb25zdCB0eXBlcyA9IHsgJy5odG1sJzogJ3RleHQvaHRtbDsgY2hhcnNldD11dGYtOCcsICcuY3NzJzogJ3RleHQvY3NzJywgJy5qcyc6ICd0ZXh0L2phdmFzY3JpcHQnLCAnLnN2Zyc6ICdpbWFnZS9zdmcreG1sJywgJy54bWwnOiAnYXBwbGljYXRpb24veG1sJywgJy50eHQnOiAndGV4dC9wbGFpbicsICcucG5nJzogJ2ltYWdlL3BuZycsICcuanBnJzogJ2ltYWdlL2pwZWcnLCAnLmljbyc6ICdpbWFnZS94LWljb24nIH0KY29uc3QgcG9ydCA9IE51bWJlcihwcm9jZXNzLmVudi5QT1JUIHx8IDQxNzMpCgpjcmVhdGVTZXJ2ZXIoKHJlcSwgcmVzKSA9PiB7CiAgbGV0IHBhdGggPSBkZWNvZGVVUklDb21wb25lbnQobmV3IFVSTChyZXEudXJsLCAnaHR0cDovL2xvY2FsaG9zdCcpLnBhdGhuYW1lKQogIGlmIChwYXRoLmVuZHNXaXRoKCcvJykpIHBhdGggKz0gJ2luZGV4Lmh0bWwnCiAgY29uc3QgZmlsZSA9IG5vcm1hbGl6ZShqb2luKGRpc3REaXIsIHBhdGgpKQogIGlmICghZmlsZS5zdGFydHNXaXRoKGRpc3REaXIpIHx8ICFleGlzdHNTeW5jKGZpbGUpIHx8ICFzdGF0U3luYyhmaWxlKS5pc0ZpbGUoKSkgewogICAgcmVzLndyaXRlSGVhZCg0MDQsIHsgJ2NvbnRlbnQtdHlwZSc6ICd0ZXh0L3BsYWluJyB9KQogICAgcmV0dXJuIHJlcy5lbmQoJ1RpZGFrIGRpdGVtdWthbicpCiAgfQogIHJlcy53cml0ZUhlYWQoMjAwLCB7ICdjb250ZW50LXR5cGUnOiB0eXBlc1tleHRuYW1lKGZpbGUpXSB8fCAnYXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtJyB9KQogIHJlcy5lbmQocmVhZEZpbGVTeW5jKGZpbGUpKQp9KS5saXN0ZW4ocG9ydCwgKCkgPT4gY29uc29sZS5sb2coYERldiBzZXJ2ZXI6IGh0dHA6Ly9sb2NhbGhvc3Q6JHtwb3J0fWApKQo=
+// Dev server: build sekali lalu sajikan dist/ secara statis.
+import { createServer } from 'node:http'
+import { readFileSync, existsSync, statSync } from 'node:fs'
+import { join, extname, dirname, normalize } from 'node:path'
+import { fileURLToPath } from 'node:url'
+import { build } from './build.mjs'
+
+const root = join(dirname(fileURLToPath(import.meta.url)), '..')
+const distDir = join(root, 'dist')
+build({ quiet: true })
+
+const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml', '.xml': 'application/xml', '.txt': 'text/plain', '.png': 'image/png', '.jpg': 'image/jpeg', '.ico': 'image/x-icon' }
+const port = Number(process.env.PORT || 4173)
+
+createServer((req, res) => {
+  let path = decodeURIComponent(new URL(req.url, 'http://localhost').pathname)
+  if (path.endsWith('/')) path += 'index.html'
+  const file = normalize(join(distDir, path))
+  if (!file.startsWith(distDir) || !existsSync(file) || !statSync(file).isFile()) {
+    res.writeHead(404, { 'content-type': 'text/plain' })
+    return res.end('Tidak ditemukan')
+  }
+  res.writeHead(200, { 'content-type': types[extname(file)] || 'application/octet-stream' })
+  res.end(readFileSync(file))
+}).listen(port, () => console.log(`Dev server: http://localhost:${port}`))

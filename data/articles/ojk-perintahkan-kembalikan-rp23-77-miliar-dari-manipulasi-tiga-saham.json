@@ -1,1 +1,62 @@
-ewogICJzbHVnIjogIm9qay1wZXJpbnRhaGthbi1rZW1iYWxpa2FuLXJwMjMtNzctbWlsaWFyLWRhcmktbWFuaXB1bGFzaS10aWdhLXNhaGFtIiwKICAiZHJhZnRfaWQiOiAxNiwKICAiaGVhZGxpbmUiOiAiT0pLIFBlcmludGFoa2FuIFBlbmdlbWJhbGlhbiBScDIzLDc3IE1pbGlhciBkYXJpIE1hbmlwdWxhc2kgVGlnYSBTYWhhbSIsCiAgInNlb190aXRsZSI6ICJPSksgUGVyaW50YWhrYW4gS2VtYmFsaWthbiBScDIzLDc3IE1pbGlhciBkYXJpIE1hbmlwdWxhc2kgVGlnYSBTYWhhbSIsCiAgIm1ldGFfZGVzY3JpcHRpb24iOiAiT0pLIG1lbWVyaW50YWhrYW4gcGVuZ2VtYmFsaWFuIGtldW50dW5nYW4gdGlkYWsgc2FoIFJwMjMsNzcgbWlsaWFyIGRhcmkgbWFuaXB1bGFzaSBzYWhhbSBIT01JLCBTQU1GLCBkYW4gU01ETSwgcGx1cyBkZW5kYSBScDMsNzEgbWlsaWFyLiIsCiAgImRlc2siOiAiQnVyc2EiLAogICJraWNrZXIiOiAiT3Rvcml0YXMgSmFzYSBLZXVhbmdhbiIsCiAgInB1Ymxpc2hlZF9hdCI6ICIyMDI2LTExLTI0VDAwOjE0OjMwLjM5NloiLAogICJkYXRlX2xhYmVsIjogIlNlbGFzYSwgMjQgTm92ZW1iZXIgMjAyNiIsCiAgImNvdmVyIjogewogICAgInNyYyI6ICJodHRwczovL2dhcHVyYS5hdmVuaWEubXkuaWQvc3RvcmFnZS9kcmFmdHMvMTYvc2xpZGVfMS5wbmciLAogICAgImNyZWRpdCI6ICJGaXJ6YWZwIC8gV2lraW1lZGlhIENvbW1vbnMiLAogICAgImFsdCI6ICJPSksgUGVyaW50YWhrYW4gUGVuZ2VtYmFsaWFuIFJwMjMsNzcgTWlsaWFyIGRhcmkgTWFuaXB1bGFzaSBUaWdhIFNhaGFtIgogIH0sCiAgImxlYWQiOiAiT3Rvcml0YXMgSmFzYSBLZXVhbmdhbiAoT0pLKSBtZW1lcmludGFoa2FuIHBlbmdlbWJhbGlhbiBrZXVudHVuZ2FuIHRpZGFrIHNhaCBzZW5pbGFpIHRvdGFsIFJwMjMsNzcgbWlsaWFyIGRhcmkgdGlnYSBrYXN1cyBtYW5pcHVsYXNpIHBlcmRhZ2FuZ2FuIHNhaGFtLiBUaWdhIHNhaGFtIHlhbmcgdGVyc2VyZXQgYWRhbGFoIFBUIEdyYW5kIEhvdXNlIE11bGlhIFRiayAoSE9NSSksIFBUIFNhcmFzd2FudGkgQW51Z2VyYWggTWFrbXVyIFRiayAoU0FNRiksIGRhbiBQVCBTdXJ5YW1hcyBEdXRhbWFrbXVyIFRiayAoU01ETSkuIE9KSyBtZW5lZ2Fza2FuIG5pbGFpIFJwMjMsNzcgbWlsaWFyIG1lcnVwYWthbiBqdW1sYWggeWFuZyBkaXBlcmludGFoa2FuIHVudHVrIGRpa2VtYmFsaWthbiwgYnVrYW4ganVtbGFoIHlhbmcgc3VkYWggdGVyZWFsaXNhc2kgcGVuZ2VtYmFsaWFubnlhLiIsCiAgInRha2Vhd2F5cyI6IFsKICAgICJPSksgbWVtZXJpbnRhaGthbiBwZW5nZW1iYWxpYW4ga2V1bnR1bmdhbiB0aWRhayBzYWggUnAyMyw3NyBtaWxpYXIgZGFyaSBtYW5pcHVsYXNpIHNhaGFtIEhPTUksIFNBTUYsIGRhbiBTTURNLiIsCiAgICAiS2FzdXMgdGVyYmVzYXIgYWRhbGFoIFNBTUYgZGVuZ2FuIGtldW50dW5nYW4gdGlkYWsgc2FoIFJwMTIsNTUgbWlsaWFyLCBkaWlrdXRpIEhPTUkgUnA2LDg5IG1pbGlhciBkYW4gU01ETSBScDQsMzIgbWlsaWFyLiIsCiAgICAiT0pLIGp1Z2EgbWVuZ2VuYWthbiBkZW5kYSBhZG1pbmlzdHJhdGlmIHRvdGFsIFJwMyw3MSBtaWxpYXIgZGFuIGxhcmFuZ2FuIGJlcmtlZ2lhdGFuIHNlbGFtYSAzIGhpbmdnYSAxMCB0YWh1bi4iCiAgXSwKICAic2VjdGlvbnMiOiBbCiAgICB7CiAgICAgICJoZWFkaW5nIjogIlRpZ2EgS2FzdXMgTWFuaXB1bGFzaSBTYWhhbSIsCiAgICAgICJwYXJhZ3JhcGhzIjogWwogICAgICAgICJLYXN1cyBzYWhhbSBIT01JIGJlcmxhbmdzdW5nIHBhZGEgMjAgTWFyZXQgaGluZ2dhIDIxIEp1bGkgMjAyMyBkYW4gbWVsaWJhdGthbiAxNSByZWtlbmluZyBlZmVrIG5hc2FiYWguIFBUIFNha3RpIE1hanUgQmVyZGlrYXJpLCBUZWRkaSBCdWRpbWFuLCBIZXJtYW50bywgZGFuIEluZHJhIFMgZGlwZXJpbnRhaGthbiBtZW5nZW1iYWxpa2FuIGtldW50dW5nYW4gdGlkYWsgc2FoIHNlYmVzYXIgUnA2LDg5IG1pbGlhciwgZGFuIE9KSyBtZW1lcmludGFoa2FuIHBlbnV0dXBhbiAxNSByZWtlbmluZyBlZmVrIHlhbmcgdGVyaWRlbnRpZmlrYXNpIHRlcmthaXQgdHJhbnNha3NpIHNhaGFtIEhPTUkuIiwKICAgICAgICAiS2FzdXMgc2FoYW0gU0FNRiBiZXJsYW5nc3VuZyBwYWRhIDQgc2FtcGFpIDE5IE1laSAyMDIxIGRlbmdhbiBrZXVudHVuZ2FuIHRpZGFrIHNhaCBScDEyLDU1IG1pbGlhci4gS2FzdXMgc2FoYW0gU01ETSBiZXJsYW5nc3VuZyBwYWRhIDYgU2VwdGVtYmVyIGhpbmdnYSAxOCBPa3RvYmVyIDIwMjIgZGVuZ2FuIGtldW50dW5nYW4gdGlkYWsgc2FoIFJwNCwzMiBtaWxpYXIgZGFyaSBzZW1iaWxhbiBwaWhhay4iCiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJoZWFkaW5nIjogIlNhbmtzaSBkYW4gRGVuZGEiLAogICAgICAicGFyYWdyYXBocyI6IFsKICAgICAgICAiU2VsYWluIHBlcmludGFoIHBlbmdlbWJhbGlhbiBrZXVudHVuZ2FuLCBPSksgbWVuamF0dWhrYW4gZGVuZGEgYWRtaW5pc3RyYXRpZiBkZW5nYW4gdG90YWwgUnAzLDcxIG1pbGlhciBhdGFzIGJlcmJhZ2FpIHBlbGFuZ2dhcmFuIGtldGVudHVhbiBkaSBwYXNhciBtb2RhbC4gU2Fua3NpIGluaSBtZXJ1cGFrYW4gYmFnaWFuIGRhcmkgMTAga2FzdXMgcGVsYW5nZ2FyYW4gcGFzYXIgbW9kYWwgeWFuZyBkaXRpbmRhayBPSkssIHRlcm1hc3VrIG1hbmlwdWxhc2kgc2FoYW0sIHBlbGFuZ2dhcmFuIGtldGVyYnVrYWFuIGluZm9ybWFzaSwgZGFuIHBlbGFwb3JhbiBrZXVhbmdhbi4iLAogICAgICAgICJPSksganVnYSBtZW5qYXR1aGthbiBsYXJhbmdhbiBiZXJrZWdpYXRhbiBkaSBzZWt0b3IgcGFzYXIgbW9kYWwsIGtldWFuZ2FuIGRlcml2YXRpZiwgZGFuIGJ1cnNhIGthcmJvbiBrZXBhZGEgc2VqdW1sYWggcGloYWsgc2VsYW1hIDMgaGluZ2dhIDEwIHRhaHVuLiBPSksgbWVuZWdhc2thbiBwcmFrdGlrIHlhbmcgbWVuY2lwdGFrYW4gZ2FtYmFyYW4gc2VtdSBhdGF1IG1lbnllc2F0a2FuIG1lbmdlbmFpIGFrdGl2aXRhcyBwZXJkYWdhbmdhbiB0aWRhayBkYXBhdCBkaXRvbGVyYW5zaSBrYXJlbmEgZGFwYXQgbWVydXNhayBwZW1iZW50dWthbiBoYXJnYSB5YW5nIHdhamFyIGRhbiBtZW51cnVua2FuIGtlcGVyY2F5YWFuIGludmVzdG9yLiIKICAgICAgXQogICAgfSwKICAgIHsKICAgICAgImhlYWRpbmciOiAiUGVuZ3VtdW1hbiBPSksiLAogICAgICAicGFyYWdyYXBocyI6IFsKICAgICAgICAiU2Fua3NpIGF0YXMgMTAga2FzdXMgcGVsYW5nZ2FyYW4gcGFzYXIgbW9kYWwgaW5pIGRpdW11bWthbiBPSksgZGFsYW0gc2lhcmFuIHBlcnMgcGFkYSBTYWJ0dSwgMjEgTm92ZW1iZXIgMjAyNi4gT0pLIG1lbnlhdGFrYW4gbGFuZ2thaCBpbmkgZGlhbWJpbCB1bnR1ayBtZW5qYWdhIGludGVncml0YXMgcGVyZGFnYW5nYW4gZGFuIG1lbGluZHVuZ2kgaW52ZXN0b3IuIgogICAgICBdCiAgICB9CiAgXSwKICAic291cmNlcyI6IFsKICAgIHsKICAgICAgIm5hbWUiOiAiQmFyZWtzYSIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly93d3cuYmFyZWtzYS5jb20vYmVyaXRhL3NhaGFtLzIwMjYtMTEtMjMvb2prLWphdHVoa2FuLXNhbmtzaS0xMC1rYXN1cy1wYXNhci1tb2RhbC1hZGEtaG9taS1oaW5nZ2Etc21nciIKICAgIH0sCiAgICB7CiAgICAgICJuYW1lIjogIlBlcmlza29wIiwKICAgICAgInVybCI6ICJodHRwczovL3Blcmlza29wLmlkL3Bhc2FyLW1vZGFsLzIwMjYxMTIxL29qay1zYW5rc2ktMTAta2FzdXMtcGVsYW5nZ2FyYW4tcGFzYXItbW9kYWwiCiAgICB9LAogICAgewogICAgICAibmFtZSI6ICJJbmRvbmVzaWEgQnVzaW5lc3MgUG9zdCIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pbmRvbmVzaWFidXNpbmVzc3Bvc3QuY29tLzc4OTAvbWFya2V0cy1hbmQtZmluYW5jZS9vamstb3JkZXJzLXJldHVybi1vZi11cy0xLTMwLW1pbGxpb24taW4tZ2FpbnMtZnJvbS1zdG9jay1tYW5pcHVsYXRpb24iCiAgICB9CiAgXSwKICAic29jaWFsIjogewogICAgImluc3RhZ3JhbSI6ICJodHRwczovL3d3dy5pbnN0YWdyYW0uY29tL3AvRGdHcEpuRW1ZRE0vIiwKICAgICJmYWNlYm9vayI6ICJodHRwczovL3d3dy5mYWNlYm9vay5jb20vMTE1ODEwNDMwMzgyMjg1OC9wb3N0cy8xMTU4NjI1NDQwNDM3NDExIgogIH0KfQo=
+{
+  "slug": "ojk-perintahkan-kembalikan-rp23-77-miliar-dari-manipulasi-tiga-saham",
+  "draft_id": 16,
+  "headline": "OJK Perintahkan Pengembalian Rp23,77 Miliar dari Manipulasi Tiga Saham",
+  "seo_title": "OJK Perintahkan Kembalikan Rp23,77 Miliar dari Manipulasi Tiga Saham",
+  "meta_description": "OJK memerintahkan pengembalian keuntungan tidak sah Rp23,77 miliar dari manipulasi saham HOMI, SAMF, dan SMDM, plus denda Rp3,71 miliar.",
+  "desk": "Bursa",
+  "kicker": "Otoritas Jasa Keuangan",
+  "published_at": "2026-11-24T00:14:30.396Z",
+  "date_label": "Selasa, 24 November 2026",
+  "cover": {
+    "src": "https://gapura.avenia.my.id/storage/drafts/16/slide_1.png",
+    "credit": "Firzafp / Wikimedia Commons",
+    "alt": "OJK Perintahkan Pengembalian Rp23,77 Miliar dari Manipulasi Tiga Saham"
+  },
+  "lead": "Otoritas Jasa Keuangan (OJK) memerintahkan pengembalian keuntungan tidak sah senilai total Rp23,77 miliar dari tiga kasus manipulasi perdagangan saham. Tiga saham yang terseret adalah PT Grand House Mulia Tbk (HOMI), PT Saraswanti Anugerah Makmur Tbk (SAMF), dan PT Suryamas Dutamakmur Tbk (SMDM). OJK menegaskan nilai Rp23,77 miliar merupakan jumlah yang diperintahkan untuk dikembalikan, bukan jumlah yang sudah terealisasi pengembaliannya.",
+  "takeaways": [
+    "OJK memerintahkan pengembalian keuntungan tidak sah Rp23,77 miliar dari manipulasi saham HOMI, SAMF, dan SMDM.",
+    "Kasus terbesar adalah SAMF dengan keuntungan tidak sah Rp12,55 miliar, diikuti HOMI Rp6,89 miliar dan SMDM Rp4,32 miliar.",
+    "OJK juga mengenakan denda administratif total Rp3,71 miliar dan larangan berkegiatan selama 3 hingga 10 tahun."
+  ],
+  "sections": [
+    {
+      "heading": "Tiga Kasus Manipulasi Saham",
+      "paragraphs": [
+        "Kasus saham HOMI berlangsung pada 20 Maret hingga 21 Juli 2023 dan melibatkan 15 rekening efek nasabah. PT Sakti Maju Berdikari, Teddi Budiman, Hermanto, dan Indra S diperintahkan mengembalikan keuntungan tidak sah sebesar Rp6,89 miliar, dan OJK memerintahkan penutupan 15 rekening efek yang teridentifikasi terkait transaksi saham HOMI.",
+        "Kasus saham SAMF berlangsung pada 4 sampai 19 Mei 2021 dengan keuntungan tidak sah Rp12,55 miliar. Kasus saham SMDM berlangsung pada 6 September hingga 18 Oktober 2022 dengan keuntungan tidak sah Rp4,32 miliar dari sembilan pihak."
+      ]
+    },
+    {
+      "heading": "Sanksi dan Denda",
+      "paragraphs": [
+        "Selain perintah pengembalian keuntungan, OJK menjatuhkan denda administratif dengan total Rp3,71 miliar atas berbagai pelanggaran ketentuan di pasar modal. Sanksi ini merupakan bagian dari 10 kasus pelanggaran pasar modal yang ditindak OJK, termasuk manipulasi saham, pelanggaran keterbukaan informasi, dan pelaporan keuangan.",
+        "OJK juga menjatuhkan larangan berkegiatan di sektor pasar modal, keuangan derivatif, dan bursa karbon kepada sejumlah pihak selama 3 hingga 10 tahun. OJK menegaskan praktik yang menciptakan gambaran semu atau menyesatkan mengenai aktivitas perdagangan tidak dapat ditoleransi karena dapat merusak pembentukan harga yang wajar dan menurunkan kepercayaan investor."
+      ]
+    },
+    {
+      "heading": "Pengumuman OJK",
+      "paragraphs": [
+        "Sanksi atas 10 kasus pelanggaran pasar modal ini diumumkan OJK dalam siaran pers pada Sabtu, 21 November 2026. OJK menyatakan langkah ini diambil untuk menjaga integritas perdagangan dan melindungi investor."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "Bareksa",
+      "url": "https://www.bareksa.com/berita/saham/2026-11-23/ojk-jatuhkan-sanksi-10-kasus-pasar-modal-ada-homi-hingga-smgr"
+    },
+    {
+      "name": "Periskop",
+      "url": "https://periskop.id/pasar-modal/20261121/ojk-sanksi-10-kasus-pelanggaran-pasar-modal"
+    },
+    {
+      "name": "Indonesia Business Post",
+      "url": "https://indonesiabusinesspost.com/7890/markets-and-finance/ojk-orders-return-of-us-1-30-million-in-gains-from-stock-manipulation"
+    }
+  ],
+  "social": {
+    "instagram": "https://www.instagram.com/p/DgGpJnEmYDM/",
+    "facebook": "https://www.facebook.com/1158104303822858/posts/1158625440437411"
+  }
+}

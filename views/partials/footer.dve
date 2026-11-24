@@ -1,1 +1,21 @@
-PGZvb3RlciBjbGFzcz0ic2l0ZS1mb290ZXIiPgogIDxkaXYgY2xhc3M9ImNvbnRhaW5lciBmb290ZXItaW5uZXIiPgogICAgPGRpdj4KICAgICAgPHNwYW4gY2xhc3M9ImJyYW5kLWJhciIgYXJpYS1oaWRkZW49InRydWUiPjwvc3Bhbj4KICAgICAgPHNwYW4gY2xhc3M9ImJyYW5kLXRleHQgbGlnaHQiPkdBUFVSQSA8c3BhbiBjbGFzcz0iYnJhbmQtbWVkaWEiPk1FRElBPC9zcGFuPjwvc3Bhbj4KICAgICAgPHAgY2xhc3M9ImZvb3Rlci1kZXNjIj57eyBzaXRlLmRlc2NyaXB0aW9uIH19PC9wPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJmb290ZXItbGlua3MiPgogICAgICA8YSBocmVmPSJ7eyBzb2NpYWxzLmluc3RhZ3JhbSB9fSIgdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9vcGVuZXIiPkluc3RhZ3JhbSBAZ2FwdXJhbWVkaWE8L2E+CiAgICAgIDxhIGhyZWY9Int7IHNvY2lhbHMuZmFjZWJvb2sgfX0iIHRhcmdldD0iX2JsYW5rIiByZWw9Im5vb3BlbmVyIj5GYWNlYm9vayBHYXB1cmEgTWVkaWE8L2E+CiAgICAgIDxhIGhyZWY9Ii9mZWVkLnhtbCI+UlNTPC9hPgogICAgICA8YSBocmVmPSIvc2l0ZW1hcC54bWwiPlNpdGVtYXA8L2E+CiAgICA8L2Rpdj4KICA8L2Rpdj4KICA8ZGl2IGNsYXNzPSJmb290ZXItYmFyIj4KICAgIDxkaXYgY2xhc3M9ImNvbnRhaW5lciBmb290ZXItYmFyLWlubmVyIj4KICAgICAgPHNwYW4+R0FQVVJBTUVESUEuTVkuSUQ8L3NwYW4+CiAgICAgIDxzcGFuPsKpIHt7IHNpdGUueWVhciB9fSBHYXB1cmEgTWVkaWE8L3NwYW4+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC9mb290ZXI+Cg==
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <span class="brand-bar" aria-hidden="true"></span>
+      <span class="brand-text light">GAPURA <span class="brand-media">MEDIA</span></span>
+      <p class="footer-desc">{{ site.description }}</p>
+    </div>
+    <div class="footer-links">
+      <a href="{{ socials.instagram }}" target="_blank" rel="noopener">Instagram @gapuramedia</a>
+      <a href="{{ socials.facebook }}" target="_blank" rel="noopener">Facebook Gapura Media</a>
+      <a href="/feed.xml">RSS</a>
+      <a href="/sitemap.xml">Sitemap</a>
+    </div>
+  </div>
+  <div class="footer-bar">
+    <div class="container footer-bar-inner">
+      <span>GAPURAMEDIA.MY.ID</span>
+      <span>© {{ site.year }} Gapura Media</span>
+    </div>
+  </div>
+</footer>

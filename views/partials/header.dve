@@ -1,1 +1,16 @@
-PGhlYWRlciBjbGFzcz0ic2l0ZS1oZWFkZXIiPgogIDxkaXYgY2xhc3M9ImNvbnRhaW5lciBoZWFkZXItaW5uZXIiPgogICAgPGEgY2xhc3M9ImJyYW5kIiBocmVmPSIvIiBhcmlhLWxhYmVsPSJHYXB1cmEgTWVkaWEg4oCUIEJlcmFuZGEiPgogICAgICA8c3BhbiBjbGFzcz0iYnJhbmQtYmFyIiBhcmlhLWhpZGRlbj0idHJ1ZSI+PC9zcGFuPgogICAgICA8c3BhbiBjbGFzcz0iYnJhbmQtdGV4dCI+R0FQVVJBIDxzcGFuIGNsYXNzPSJicmFuZC1tZWRpYSI+TUVESUE8L3NwYW4+PC9zcGFuPgogICAgPC9hPgogICAgPG5hdiBjbGFzcz0ibWFpbi1uYXYiIGFyaWEtbGFiZWw9Ik5hdmlnYXNpIHV0YW1hIj4KICAgICAgPGEgaHJlZj0iLyI+VGVyYmFydTwvYT4KICAgICAgPGEgaHJlZj0ie3sgc29jaWFscy5pbnN0YWdyYW0gfX0iIHRhcmdldD0iX2JsYW5rIiByZWw9Im5vb3BlbmVyIj5JbnN0YWdyYW08L2E+CiAgICAgIDxhIGhyZWY9Int7IHNvY2lhbHMuZmFjZWJvb2sgfX0iIHRhcmdldD0iX2JsYW5rIiByZWw9Im5vb3BlbmVyIj5GYWNlYm9vazwvYT4KICAgIDwvbmF2PgogIDwvZGl2PgogIDxkaXYgY2xhc3M9ImhlYWRlci10YWdsaW5lIj4KICAgIDxkaXYgY2xhc3M9ImNvbnRhaW5lciI+e3sgc2l0ZS50YWdsaW5lIH19PC9kaXY+CiAgPC9kaXY+CjwvaGVhZGVyPgo=
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label="Gapura Media — Beranda">
+      <span class="brand-bar" aria-hidden="true"></span>
+      <span class="brand-text">GAPURA <span class="brand-media">MEDIA</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a href="/">Terbaru</a>
+      <a href="{{ socials.instagram }}" target="_blank" rel="noopener">Instagram</a>
+      <a href="{{ socials.facebook }}" target="_blank" rel="noopener">Facebook</a>
+    </nav>
+  </div>
+  <div class="header-tagline">
+    <div class="container">{{ site.tagline }}</div>
+  </div>
+</header>

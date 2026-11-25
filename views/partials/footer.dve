@@ -12,6 +12,7 @@
       <a href="{{ socials.facebook }}" target="_blank" rel="noopener">Facebook Gapura Media</a>
       <a href="/feed.xml">RSS</a>
       <a href="/sitemap.xml">Sitemap</a>
+      <a href="/privacy/">Kebijakan Privasi</a>
     </nav>
   </div>
   <div class="footer-bar">

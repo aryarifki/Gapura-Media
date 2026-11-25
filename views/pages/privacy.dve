@@ -1,0 +1,234 @@
+{{< layouts/main.dve}}
+{{#block title}}Kebijakan Privasi — {{ site.name }}{{/block}}
+{{#block ogtitle}}Kebijakan Privasi — {{ site.name }}{{/block}}
+{{#block body}}
+
+<article class="container article-col privacy-page" id="privacy-policy" aria-labelledby="privacy-heading">
+  <p class="kicker">Legal &amp; Tata Kelola Data</p>
+  <h1 id="privacy-heading" class="article-headline">Kebijakan Privasi</h1>
+  <p class="article-lead">
+    Standar resmi perlindungan privasi pengunjung, transparansi pemrosesan data, serta komitmen tata kelola data di situs berita <strong>Gapura Media</strong>.
+  </p>
+  <p class="meta-line article-meta">Tanggal Efektif: 18 November 2026 · Versi: v1.1 (Terbaru) · Yurisdiksi Utama: Republik Indonesia (UU PDP No. 27/2022) · Domain Layanan: gapuramedia.my.id</p>
+
+  <aside class="takeaways privacy-principles">
+    <h2>Prinsip Utama Privasi Kami</h2>
+    <ul>
+      <li><strong>Nol Penjualan Data</strong> — kami tidak pernah menjual, menyewakan, atau memperdagangkan data pribadi pengunjung ke pihak ketiga atau broker periklanan manapun.</li>
+      <li><strong>Konten Berita dari Sumber Publik</strong> — artikel di situs ini disusun dari informasi yang diterbitkan penerbit berita terverifikasi dan sumber publik resmi, bukan data privat individu.</li>
+      <li><strong>Bebas Pelacak Invasif</strong> — tanpa cookie iklan pihak ketiga dan tanpa pixel pelacak lintas situs di situs ini.</li>
+      <li><strong>Enkripsi Penuh (TLS)</strong> — seluruh koneksi ke gapuramedia.my.id dienkripsi secara end-to-end via HTTPS/TLS modern dan arsitektur statis edge yang aman.</li>
+    </ul>
+  </aside>
+
+  <nav class="privacy-toc" aria-label="Daftar Isi Kebijakan Privasi">
+    <h2>Daftar Isi Kebijakan Privasi</h2>
+    <ol>
+      <li><a href="#section-1">Pendahuluan &amp; Identitas Pengelola</a></li>
+      <li><a href="#section-2">Ruang Lingkup Layanan</a></li>
+      <li><a href="#section-3">Jenis Data yang Dikumpulkan &amp; Cara Pengumpulannya</a></li>
+      <li><a href="#section-4">Tujuan &amp; Dasar Hukum Pemrosesan Data (UU PDP)</a></li>
+      <li><a href="#section-5">Penggunaan Cookie &amp; Teknologi Serupa</a></li>
+      <li><a href="#section-6">Penyimpanan, Keamanan &amp; Retensi Data</a></li>
+      <li><a href="#section-7">Penyedia Layanan Pihak Ketiga &amp; Infrastruktur</a></li>
+      <li><a href="#section-8">Hak-Hak Anda sebagai Pemilik Data Pribadi</a></li>
+      <li><a href="#section-9">Kebijakan Privasi Perlindungan Terhadap Anak</a></li>
+      <li><a href="#section-10">Tautan ke Situs &amp; Layanan Eksternal</a></li>
+      <li><a href="#section-11">Pembaruan &amp; Riwayat Perubahan Kebijakan</a></li>
+      <li><a href="#section-12">Saluran Komunikasi &amp; Informasi Kontak</a></li>
+    </ol>
+  </nav>
+
+  <section class="article-section" id="section-1">
+    <h2>01 · Pendahuluan &amp; Identitas Pengelola</h2>
+    <p>
+      Selamat datang di <strong>Gapura Media</strong> (domain utama <code>https://gapuramedia.my.id</code>), media berita digital Indonesia yang menerbitkan artikel berita lengkap mengenai politik, sosial, hukum, lingkungan, dan ekonomi nasional termasuk bursa saham. Kami menghargai hak privasi setiap individu yang mengunjungi situs web kami dan membaca artikel yang kami terbitkan.
+    </p>
+    <p>
+      Dokumen Kebijakan Privasi ini menjelaskan secara komprehensif dan transparan mengenai kebijakan kami dalam menghimpun, memproses, menyimpan, dan melindungi informasi pengunjung saat mengakses <strong>gapuramedia.my.id</strong>. Kebijakan ini disusun berdasarkan komitmen etika jurnalisme dan tata kelola data yang terbuka, serta tunduk pada peraturan perundang-undangan yang berlaku di Republik Indonesia, khususnya <strong>Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)</strong>.
+    </p>
+    <p>
+      Dengan mengakses dan menggunakan situs ini, Anda mengakui bahwa Anda telah membaca, memahami, dan menyetujui praktik penanganan data yang diuraikan dalam Kebijakan Privasi ini.
+    </p>
+  </section>
+
+  <section class="article-section" id="section-2">
+    <h2>02 · Ruang Lingkup Layanan</h2>
+    <p>Kebijakan Privasi ini berlaku untuk:</p>
+    <ul>
+      <li>Situs web utama: <code>https://gapuramedia.my.id</code>, beserta seluruh halaman artikel, umpan RSS, dan peta situs di dalamnya.</li>
+      <li>Versi lengkap artikel Gapura Media yang dirujuk dari konten carousel di media sosial resmi kami.</li>
+    </ul>
+    <p>
+      Konten Gapura Media juga diterbitkan melalui Instagram dan Facebook (<strong>@gapuramedia</strong>). Interaksi Anda di kedua platform tersebut (komentar, pesan langsung, reaksi) diproses oleh Meta Platforms, Inc. dan tunduk pada kebijakan privasi Meta, bukan kebijakan ini. Kebijakan ini juga tidak berlaku untuk situs web, layanan pihak ketiga, atau tautan eksternal yang berada di luar kendali langsung operasional Gapura Media.
+    </p>
+  </section>
+
+  <section class="article-section" id="section-3">
+    <h2>03 · Jenis Data yang Dikumpulkan &amp; Cara Pengumpulannya</h2>
+    <p>
+      Kami menerapkan prinsip <em>data minimization</em> (pembatasan data), di mana kami hanya memproses data yang mutlak diperlukan untuk mengoperasikan situs berita ini:
+    </p>
+    <h3>A. Data Teknis &amp; Telemetri Akses (Dihimpun Otomatis)</h3>
+    <p>
+      Saat Anda memuat halaman situs ini, infrastruktur hosting kami (GitHub Pages dan penyedia jaringan edge Cloudflare) secara otomatis merekam catatan log teknis standar peramban, yang meliputi:
+    </p>
+    <ul>
+      <li>Alamat Protokol Internet (IP Address) dalam format anonim/terpotong.</li>
+      <li>Informasi peramban web (User-Agent string, nama dan versi browser).</li>
+      <li>Sistem operasi perangkat (misal: Linux, Windows, macOS, Android, iOS).</li>
+      <li>Alamat URL halaman yang Anda minta beserta cap waktu (timestamp) akses.</li>
+      <li>Halaman perujuk (HTTP Referrer Header).</li>
+    </ul>
+    <h3>B. Data Interaksi Sukarela (Diberikan oleh Pengguna)</h3>
+    <p>
+      Jika Anda memutuskan untuk berinteraksi lebih lanjut dengan kami:
+    </p>
+    <ul>
+      <li><strong>Komunikasi Media Sosial:</strong> Nama akun dan isi pesan atau komentar yang Anda kirimkan melalui kanal resmi Instagram dan Facebook Gapura Media (@gapuramedia).</li>
+      <li><strong>Koreksi &amp; Hak Jawab:</strong> Nama/alias, kanal kontak, dan isi permohonan koreksi atau hak jawab yang Anda sampaikan sehubungan dengan artikel yang kami terbitkan.</li>
+    </ul>
+    <aside class="privacy-callout">
+      <p class="callout-badge">Penegasan Khusus Konten Berita</p>
+      <p>
+        Seluruh artikel yang ditampilkan di situs ini disusun dari <strong>informasi yang telah diterbitkan</strong> oleh penerbit berita dan sumber publik resmi, yang dirujuk secara terbuka pada bagian "Sumber Berita" di setiap artikel. Konten berita tersebut merupakan informasi publik dan <strong>bukan merupakan data pribadi perorangan</strong> yang kami himpun dari pembaca.
+      </p>
+    </aside>
+  </section>
+
+  <section class="article-section" id="section-4">
+    <h2>04 · Tujuan &amp; Dasar Hukum Pemrosesan Data (UU PDP)</h2>
+    <p>
+      Berdasarkan Pasal 20 UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi, pemrosesan data oleh Gapura Media dilakukan berdasarkan persetujuan yang sah (consent) dan kepentingan yang sah (legitimate interests), dengan tujuan:
+    </p>
+    <ol>
+      <li><strong>Penyajian Layanan Informasi:</strong> Menyampaikan artikel berita lengkap yang cepat, responsif, dan akurat kepada pembaca.</li>
+      <li><strong>Keamanan Sistem &amp; Integritas Infrastruktur:</strong> Mendeteksi, menganalisis, dan memitigasi anomali lalu lintas, serangan siber (seperti DoS/DDoS), injeksi kode, atau eksploitasi perayapan (scraping) yang berlebihan.</li>
+      <li><strong>Komunikasi, Koreksi &amp; Hak Jawab:</strong> Menanggapi pesan pembaca serta memproses permohonan koreksi dan hak jawab dari pihak yang diberitakan sesuai etika pers.</li>
+      <li><strong>Evaluasi &amp; Peningkatan Produk:</strong> Mengetahui tren performa teknis (Core Web Vitals) untuk mengoptimalkan pengalaman membaca tanpa melacak profil individu secara invasif.</li>
+    </ol>
+  </section>
+
+  <section class="article-section" id="section-5">
+    <h2>05 · Penggunaan Cookie &amp; Teknologi Serupa</h2>
+    <p>
+      Situs <strong>gapuramedia.my.id</strong> dirancang dengan arsitektur statis yang menghargai privasi secara default (<em>privacy by design</em>):
+    </p>
+    <ul>
+      <li><strong>Tanpa Cookie Pihak Ketiga:</strong> Kami tidak menyematkan cookie pelacak periklanan pihak ketiga, cookie retargeting, atau cookie analitik profil dari jejaring sosial.</li>
+      <li><strong>Tanpa Sisipan Media Sosial:</strong> Situs ini tidak menyematkan widget sisipan (embed) Instagram atau Facebook. Tautan menuju kedua platform membuka layanan Meta di tab baru, dan sejak saat itu kebijakan privasi Meta yang berlaku.</li>
+      <li><strong>Cookie Teknis Infrastruktur:</strong> Penyedia jaringan edge dan hosting kami dapat menggunakan cookie teknis yang mutlak diperlukan untuk keamanan (misalnya mitigasi bot) dan penyeimbangan beban. Cookie tersebut tidak digunakan untuk memprofilkan atau mengiklankan kepada Anda.</li>
+    </ul>
+    <p>
+      Anda dapat menghapus atau menonaktifkan cookie kapan saja melalui pengaturan peramban web (browser settings) Anda tanpa memengaruhi fungsionalitas membaca artikel utama.
+    </p>
+  </section>
+
+  <section class="article-section" id="section-6">
+    <h2>06 · Penyimpanan, Keamanan &amp; Retensi Data</h2>
+    <p>
+      Kami menerapkan langkah-langkah keamanan teknis dan organisasional yang proporsional untuk melindungi setiap data dari akses yang tidak sah, pengungkapan tanpa izin, manipulasi, atau kehancuran:
+    </p>
+    <ul>
+      <li><strong>Enkripsi Transit:</strong> Seluruh komunikasi antara peramban Anda dan situs kami diwajibkan menggunakan enkripsi SSL/TLS (HTTPS) modern dengan sertifikat terverifikasi.</li>
+      <li><strong>Arsitektur Statis Terisolasi:</strong> Situs ini dikompilasi menjadi berkas statis (HTML/CSS/JS) murni tanpa basis data transaksi langsung yang dapat diakses publik, sehingga meminimalkan risiko kebocoran data.</li>
+      <li><strong>Retensi Data:</strong> Log server GitHub Pages dan Cloudflare disimpan sesuai dengan jadwal retensi standar masing-masing penyedia infrastruktur untuk keperluan keamanan. Pesan yang Anda kirim melalui Instagram/Facebook dikelola dan disimpan sesuai kebijakan platform Meta; permohonan penghapusan atas komunikasi langsung kepada kami dapat diajukan melalui saluran pada Bagian 12.</li>
+    </ul>
+  </section>
+
+  <section class="article-section" id="section-7">
+    <h2>07 · Penyedia Layanan Pihak Ketiga &amp; Infrastruktur</h2>
+    <p>
+      Untuk memastikan keandalan operasional, situs kami didukung oleh mitra infrastruktur terpercaya yang memiliki standar keamanan industri tinggi:
+    </p>
+    <ul>
+      <li><strong>GitHub, Inc. (GitHub Pages):</strong> Menyediakan jaringan distribusi konten dan infrastruktur hosting berkas web statis. Kebijakan privasi GitHub berlaku untuk tingkat server hosting (<a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub Privacy Statement &nearr;</a>).</li>
+      <li><strong>Cloudflare, Inc.:</strong> Menyediakan layanan DNS serta jaringan edge untuk pengiriman dan keamanan situs.</li>
+      <li><strong>Google Fonts:</strong> Digunakan untuk menyajikan tipografi web berkualitas tinggi (Archivo Black &amp; Inter) secara efisien dan terenkripsi.</li>
+      <li><strong>Meta Platforms, Inc. (Instagram &amp; Facebook):</strong> Platform eksternal tempat konten carousel Gapura Media diterbitkan (@gapuramedia) dan tempat pembaca berinteraksi dengan kami.</li>
+    </ul>
+    <p>
+      Kami menegaskan kembali bahwa kami tidak membagikan, menjual, atau memperdagangkan data Anda kepada mitra periklanan atau pemasar pihak ketiga.
+    </p>
+  </section>
+
+  <section class="article-section" id="section-8">
+    <h2>08 · Hak-Hak Anda sebagai Pemilik Data Pribadi</h2>
+    <p>
+      Sesuai dengan ketentuan Bab IV Undang-Undang Pelindungan Data Pribadi (UU PDP), Anda memiliki hak-hak fundamental berikut:
+    </p>
+    <ol>
+      <li><strong>Hak atas Informasi:</strong> Mengetahui kejelasan identitas, dasar hukum, dan tujuan pemrosesan data pribadi Anda.</li>
+      <li><strong>Hak Akses &amp; Salinan:</strong> Meminta konfirmasi dan salinan data pribadi yang pernah Anda berikan kepada kami.</li>
+      <li><strong>Hak Pembaruan &amp; Koreksi:</strong> Meminta perbaikan data pribadi Anda jika terdapat kekeliruan atau ketidakakuratan.</li>
+      <li><strong>Hak Penghapusan (Right to Erasure):</strong> Meminta penghapusan rekaman komunikasi atau data pribadi yang pernah Anda berikan kepada kami.</li>
+      <li><strong>Hak Penarikan Persetujuan:</strong> Menarik kembali persetujuan pemrosesan data pribadi yang sebelumnya telah Anda berikan kepada kami kapan saja.</li>
+    </ol>
+    <p>
+      Untuk mengajukan permohonan pelaksanaan hak-hak tersebut di atas, silakan hubungi kami melalui saluran resmi yang tertera pada Bagian 12. Kami akan memproses permohonan Anda selambat-lambatnya dalam waktu 3 x 24 jam kerja sesuai ketentuan yang berlaku.
+    </p>
+  </section>
+
+  <section class="article-section" id="section-9">
+    <h2>09 · Kebijakan Privasi Perlindungan Terhadap Anak</h2>
+    <p>
+      Situs berita Gapura Media ditujukan untuk masyarakat umum. Kami tidak secara sengaja menghimpun atau meminta data pribadi dari individu yang berusia di bawah 17 (tujuh belas) tahun atau di bawah batas kedewasaan menurut hukum yang berlaku di Indonesia.
+    </p>
+    <p>
+      Apabila Anda adalah orang tua atau wali dan mengetahui bahwa anak di bawah pengawasan Anda telah memberikan data pribadi kepada kami tanpa persetujuan Anda, mohon segera hubungi kami agar kami dapat menghapus data tersebut dari sistem kami.
+    </p>
+  </section>
+
+  <section class="article-section" id="section-10">
+    <h2>10 · Tautan ke Situs &amp; Layanan Eksternal</h2>
+    <p>
+      Situs kami memuat tautan menuju situs web atau layanan eksternal independen, seperti situs penerbit sumber berita yang dirujuk pada setiap artikel, Instagram (<code>instagram.com</code>), Facebook (<code>facebook.com</code>), maupun repositori GitHub (<code>github.com</code>).
+    </p>
+    <p>
+      Kami tidak bertanggung jawab atas praktik privasi, syarat dan ketentuan, maupun konten dari situs eksternal tersebut. Kami sangat menganjurkan Anda untuk meninjau secara saksama kebijakan privasi masing-masing situs pihak ketiga yang Anda kunjungi.
+    </p>
+  </section>
+
+  <section class="article-section" id="section-11">
+    <h2>11 · Pembaruan &amp; Riwayat Perubahan Kebijakan</h2>
+    <p>
+      Kami dapat memperbarui atau memodifikasi Kebijakan Privasi ini dari waktu ke waktu demi mencerminkan pembaruan fitur teknologi, peningkatan infrastruktur, atau penyesuaian terhadap regulasi perundang-undangan yang baru.
+    </p>
+    <p>
+      Setiap kali perubahan dilakukan, kami akan memperbarui tanggal "Tanggal Efektif" dan nomor versi di bagian atas dokumen ini. Perubahan yang bersifat material akan kami umumkan melalui notifikasi pada halaman muka situs atau melalui kanal media sosial resmi. Anda disarankan untuk memeriksa halaman ini secara berkala.
+    </p>
+  </section>
+
+  <section class="article-section" id="section-12">
+    <h2>12 · Saluran Komunikasi &amp; Informasi Kontak</h2>
+    <p>
+      Jika Anda memiliki pertanyaan, saran, keluhan, permohonan koreksi atau hak jawab, maupun permohonan pelaksanaan hak data pribadi sehubungan dengan Kebijakan Privasi ini, silakan menghubungi kami melalui saluran resmi berikut:
+    </p>
+    <ul>
+      <li>
+        <strong>Instagram:</strong>
+        <a href="{{ socials.instagram }}" target="_blank" rel="noopener noreferrer">@gapuramedia &nearr;</a>
+      </li>
+      <li>
+        <strong>Facebook:</strong>
+        <a href="{{ socials.facebook }}" target="_blank" rel="noopener noreferrer">Gapura Media &nearr;</a>
+      </li>
+      <li>
+        <strong>Platform Hub:</strong>
+        <a href="https://gapuramedia.my.id">https://gapuramedia.my.id</a>
+      </li>
+    </ul>
+    <p>
+      Kami berkomitmen untuk menanggapi setiap komunikasi secara bertanggung jawab, transparan, dan profesional.
+    </p>
+  </section>
+
+  <div class="privacy-actions">
+    <a href="/" class="btn-solid">&larr; Kembali ke Beranda</a>
+    <a href="{{ socials.instagram }}" target="_blank" rel="noopener" class="btn-outline">Instagram @gapuramedia</a>
+  </div>
+</article>
+
+{{/block}}
+
+{{/}}

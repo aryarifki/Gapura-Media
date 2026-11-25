@@ -300,6 +300,48 @@ img { max-width: 100%; display: block; }
   text-transform: uppercase; color: var(--navy-faint);
 }
 
+/* ---------- Halaman Kebijakan Privasi ---------- */
+.privacy-page { padding-bottom: 44px; }
+.privacy-page .article-section h3 {
+  font-size: 19px; font-weight: 800; letter-spacing: -0.015em; line-height: 1.35;
+  color: var(--ink); margin: 28px 0 10px;
+}
+.privacy-page .article-section ul,
+.privacy-page .article-section ol {
+  font-size: 18px; line-height: 1.78; color: var(--body);
+  margin: 0 0 20px; padding-left: 26px;
+}
+.privacy-page .article-section li { margin-bottom: 8px; }
+.privacy-page .article-section li::marker { color: var(--teal); }
+.privacy-page code {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.88em; background: var(--paper);
+  padding: 1px 5px; border: 1px solid var(--line-soft);
+}
+.privacy-toc {
+  border: 1px solid var(--line);
+  padding: 22px 24px 10px; margin: 36px 0 6px;
+}
+.privacy-toc h2 {
+  font-family: var(--display); font-weight: 400;
+  font-size: 16px; letter-spacing: 0.02em;
+  color: var(--ink); margin: 0 0 14px;
+}
+.privacy-toc ol { margin: 0; padding-left: 22px; }
+.privacy-toc li { margin-bottom: 9px; line-height: 1.55; color: var(--ink-2); }
+.privacy-toc li::marker { color: var(--teal); font-weight: 700; }
+.privacy-callout {
+  background: var(--teal-soft);
+  border-left: 3px solid var(--teal);
+  padding: 18px 20px 4px; margin: 26px 0;
+}
+.privacy-callout .callout-badge {
+  font-size: 12px; font-weight: 800; letter-spacing: 0.07em; text-transform: uppercase;
+  color: var(--teal-dark); margin: 0 0 8px;
+}
+.privacy-callout p { font-size: 16px; line-height: 1.7; }
+.privacy-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 40px; }
+
 /* ---------- Responsif ---------- */
 @media (max-width: 960px) {
   .front-grid, .article-more { grid-template-columns: 1fr; }

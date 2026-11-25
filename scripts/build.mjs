@@ -33,6 +33,8 @@ const home = dve.compile(readFileSync(join(viewsDir, 'pages', 'home.dve'), 'utf8
 dve.validate(home, 'home')
 const articlePage = dve.compile(readFileSync(join(viewsDir, 'pages', 'article.dve'), 'utf8'), 'article')
 dve.validate(articlePage, 'article')
+const privacyPage = dve.compile(readFileSync(join(viewsDir, 'pages', 'privacy.dve'), 'utf8'), 'privacy')
+dve.validate(privacyPage, 'privacy')
 
 function escXml(s) {
   return String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
@@ -79,8 +81,21 @@ export function build({ quiet = false } = {}) {
     if (!quiet) console.log(`✓ artikel/${article.slug}/`)
   }
 
+  // Halaman Kebijakan Privasi
+  const privacyHtml = dve.render(privacyPage, {
+    ...shared,
+    pageDescription: 'Kebijakan Privasi Gapura Media — standar perlindungan privasi pengunjung, transparansi pemrosesan data, dan tata kelola data di gapuramedia.my.id.',
+    canonical: `${siteData.site.url}/privacy/`,
+    ogImage: '',
+    ogType: 'website'
+  }, 'privacy:id')
+  const privacyDir = join(distDir, 'privacy')
+  mkdirSync(privacyDir, { recursive: true })
+  writeFileSync(join(privacyDir, 'index.html'), privacyHtml)
+  if (!quiet) console.log('✓ privacy/')
+
   // Sitemap
-  const urls = [`${siteData.site.url}/`, ...articles.map((a) => `${siteData.site.url}/artikel/${a.slug}/`)]
+  const urls = [`${siteData.site.url}/`, `${siteData.site.url}/privacy/`, ...articles.map((a) => `${siteData.site.url}/artikel/${a.slug}/`)]
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${escXml(u)}</loc></url>`).join('\n')}\n</urlset>\n`
   writeFileSync(join(distDir, 'sitemap.xml'), sitemap)
 
